@@ -49,7 +49,7 @@ Choosing where to open a café takes more than comparing registration fees.
 
 I built Compliance Map to put the paperwork for the same business side by side across the City of London, New York City and Dublin.
 
-The recorded demo covers a café and a home-based software consultancy. You can compare requirements, fees, renewals and opening milestones, then open the government source behind each item.
+The local demo uses saved TinyResearch results for a café and a home-based software consultancy. You can compare requirements, fees, renewals and opening milestones, then open the government source behind each item.
 
 The source review caught a $50 failure-to-display penalty listed as a registration fee. The reviewed comparison excludes it.
 
