@@ -27,7 +27,7 @@ To use another port:
 COMPLIANCE_MAP_PORT=4391 npm start
 ```
 
-The [judge guide](compliance-map/docs/JUDGE_GUIDE.md) gives a five-minute review path and maps the bounty requirements to evidence. The [demo sequence](compliance-map/docs/DEMO.md) covers both activities in a short optional walkthrough.
+The [judge guide](compliance-map/docs/JUDGE_GUIDE.md) gives a five-minute review path and maps the bounty requirements to evidence. The [demo sequence](compliance-map/docs/DEMO.md) provides a short walkthrough plan for both activities.
 
 ## The recorded comparison
 
@@ -88,7 +88,7 @@ An operator can select a different reviewed artifact with an absolute `COMPLIANC
 
 ## Verification
 
-The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests, in-app browser review and successful anonymous public-clone verification. The [published LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/) explains the build and links its code.
+The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests, in-app browser review and successful anonymous public-clone verification. The [submission packet](compliance-map/docs/SUBMISSION.md) includes revised, unpublished promotion copy; the earlier LinkedIn post was removed at the owner’s request.
 
 ## Development checks
 

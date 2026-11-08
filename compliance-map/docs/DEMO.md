@@ -15,7 +15,7 @@ npm start
 
 Open `http://127.0.0.1:4390`. The preview should be in recorded-only mode. Check `http://127.0.0.1:4390/health` if needed. The reviewed report contains the café and software-consultancy activity tabs; a missing or invalid report is a blocker, not a reason to substitute another dataset.
 
-Use a desktop window wide enough to show the aligned comparison. Turn on reduced motion if preferred. A two-minute silent screen recording with short captions is sufficient for this optional asset; no generated narration is needed. Do not show provider credentials, private receipt directories, account balances or unrelated browser tabs.
+Use a desktop window wide enough to show the aligned comparison. Turn on reduced motion if preferred. The proposed two-minute silent recording uses short captions and needs no generated narration. This is a presentation plan, not a confirmed organizer length or format requirement; see [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md). Do not show provider credentials, private receipt directories, account balances or unrelated browser tabs.
 
 ## Two-minute walkthrough
 

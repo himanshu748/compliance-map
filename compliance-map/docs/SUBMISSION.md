@@ -1,6 +1,6 @@
 # Submission and promotion copy
 
-Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. The [public repository](https://github.com/himanshu748/compliance-map) is published and its anonymous clone passes the setup, 95 tests and build. The [LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/) is published with the TinyFish company tag verified. The copy below records that announcement and the remaining Discord draft; it is not a bounty-submission receipt.
+Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. The [public repository](https://github.com/himanshu748/compliance-map) is published and its anonymous clone passes the setup, 95 tests and build. The earlier LinkedIn announcement was removed at the owner’s request. The replacement LinkedIn and Discord copy below is draft-only; it is not a bounty-submission receipt.
 
 ## Build name
 
@@ -40,23 +40,29 @@ The source audit fetched 35 pages. Its 36th request returned a response that the
 
 Run the standalone build with `npm ci` and `npm start`, then open `http://127.0.0.1:4390`. Review both activity tabs, expand an official source and its checked date, inspect the scoped recommendation and export JSON. Follow [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the requirement-to-evidence map and [DEMO.md](DEMO.md) for a short walkthrough.
 
-## Published LinkedIn announcement
+## Replacement LinkedIn draft
 
-[Published post](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/). The actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/) was selected in the composer and verified as a link in the published post.
+The earlier LinkedIn post was permanently removed at the owner’s request on 8 November 2026, with LinkedIn’s “Post removed” confirmation read back. This replacement has not been posted. Select the actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/) when posting.
 
 ```text
-I built Compliance Map for the TinyFish Compliance Map bounty.
+Choosing where to open a café takes more than comparing registration fees.
 
-It compares the paperwork for the same business activity across several places. The recorded demo follows a small café and a home-based software consultancy through the City of London, New York City and Dublin.
+I built Compliance Map to put the paperwork for the same business side by side across the City of London, New York City and Dublin.
 
-TinyResearch investigated the official rules. TinyFish Fetch retrieved the source pages, and a local review retained 31 requirements while withholding 2 unsupported claims. Each retained requirement keeps its source and checked date close to the decision.
+The recorded demo covers a café and a home-based software consultancy. You can compare requirements, fees, renewals and opening milestones, then open the government source behind each item.
 
-The comparison separates conditional fees, alternative filing routes and timing milestones. Complete setup costs and opening dates stay unknown where the evidence is incomplete.
+The source review caught a $50 failure-to-display penalty listed as a registration fee. The reviewed comparison excludes it.
 
-Code and run guide: https://github.com/himanshu748/compliance-map
+TinyResearch handled the initial investigation. TinyFish Fetch retrieved the official pages, and local review checked their meaning and scope. Where a complete cost or opening date isn't established, the view keeps it unknown.
+
+Code and local demo: https://github.com/himanshu748/compliance-map
 
 Built with @TinyFish.
 ```
+
+### What changed
+
+The rewrite leads with the reader’s decision, shows one concrete correction from the source review, and explains what the reader can inspect. Test counts and the 31/2 review inventory remain in repository evidence.
 
 ## Discord `#showcase` draft
 
@@ -74,6 +80,6 @@ Code, local demo and evidence guide: https://github.com/himanshu748/compliance-m
 
 ## Completion boundaries
 
-The judge-facing working link and required LinkedIn post are published. The required Discord share remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
+The judge-facing repository is public. The earlier LinkedIn post is removed and its replacement has not been posted. Required LinkedIn promotion is incomplete again, and Discord sharing remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
 
-An optional visual demo can accompany the entry. The checked global rules and specific brief do not require a universal narrated video, and this packet makes no claim that one has been recorded.
+The Compliance Map brief requires demonstrations on at least two different activities, without explicitly specifying a video file. The inspected Site to MCP submission form labels media optional; Compliance Map’s own final form has not been inspected. Keep the final requirement unconfirmed until that form is checked. No demo video has been recorded. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).

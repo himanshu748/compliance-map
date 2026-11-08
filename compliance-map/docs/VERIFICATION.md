@@ -1,6 +1,6 @@
 # Verification — 8 November 2026
 
-Compliance Map’s standalone technical package is verified and [published on GitHub](https://github.com/himanshu748/compliance-map). The [LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/) is live with the TinyFish company mention verified. Required Discord sharing and bounty submission remain unfinished.
+Compliance Map’s standalone technical package is verified and [published on GitHub](https://github.com/himanshu748/compliance-map). The earlier LinkedIn announcement was removed at the owner’s request; its replacement remains a draft. LinkedIn promotion, Discord sharing and bounty submission remain unfinished.
 
 The [release receipt](../evidence/release/validation.json) records the final package checks. An [isolated copy of the staged public files](../evidence/release/clean-package.json), with no existing dependencies or generated output, passed the exact quickstart installation (`npm ci`), 95 tests, typecheck and build. npm reported zero audit findings. All **95 tests** passed; TypeScript, build and formatting passed. The larger bounty workspace also passed **263 tests**, including the extracted shared Research JSON helper’s callers. Tests use isolated synthetic transports and do not start provider jobs.
 
@@ -19,7 +19,7 @@ NYC’s annual fee frequency uses a [separate earlier source review](../evidence
 ## Remaining external gates
 
 - GitHub publication is complete. An anonymous public clone of `54ae89fb38ce7b65bdc213332a38a17e6b95b904` passed `npm ci`, all 95 tests and the build. Every executable/source hash matches the verified manifest.
-- The LinkedIn post is published and read back; the live TinyFish mention points to `linkedin.com/company/tinyfish-ai/`.
+- The earlier LinkedIn post was removed, with the deletion confirmed in the UI. The replacement copy is draft-only; required LinkedIn promotion is incomplete.
 - The required TinyFish Discord `#showcase` share is blocked because owner sign-in is unavailable. Its exact copy is prepared.
 - No bounty claim, submission or approval is established by this verification. The daily submission automation remains paused.
 
@@ -31,4 +31,6 @@ The [privacy review](../evidence/release/privacy-check.json) found no actual pri
 
 ## Publication receipts
 
-The [publication receipt](../evidence/release/publication.json) links the anonymous-clone verification and the live LinkedIn readback. The earlier release-validation receipt records the pre-publication checkpoint. Later documentation-only commits preserve the executable/source digest `b5f5aeb02031b6f8f64d643253859e6c6f1a45d019dfba4c5acca6ab9622c523`; no later provider execution is implied.
+The [publication receipt](../evidence/release/publication.json) records the anonymous-clone verification and the current social state. The original LinkedIn publication readback remains a dated historical receipt; [the removal receipt](../evidence/release/linkedin-removal.json) supersedes its live-post status. The earlier release-validation receipt records the pre-publication checkpoint. Later documentation-only commits preserve the executable/source digest `b5f5aeb02031b6f8f64d643253859e6c6f1a45d019dfba4c5acca6ab9622c523`; no later provider execution is implied.
+
+The [video requirement check](VIDEO_REQUIREMENTS.md) distinguishes the required two-activity demonstration from an explicit video-file requirement. Compliance Map’s final submission form remains uninspected.

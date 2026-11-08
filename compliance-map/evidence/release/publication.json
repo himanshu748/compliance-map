@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T13:46:37.792023+00:00",
+  "checked_at": "2026-11-08T14:07:52.646373+00:00",
   "repository": {
     "url": "https://github.com/himanshu748/compliance-map",
     "visibility": "public",
@@ -12,10 +12,11 @@
     "receipt": "public-repository-verification.json"
   },
   "linkedin": {
-    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/",
-    "status": "published_and_read_back",
-    "tinyfish_company_mention_verified": true,
-    "receipt": "linkedin-publication.json"
+    "previous_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/",
+    "status": "removed_at_owner_request",
+    "removal_receipt": "linkedin-removal.json",
+    "replacement_status": "draft_only_not_posted",
+    "prior_publication_receipt": "linkedin-publication.json"
   },
   "discord": {
     "shared": false,
@@ -26,5 +27,12 @@
     "submitted": false,
     "approved": false
   },
-  "daily_automation": "PAUSED"
+  "daily_automation": "PAUSED",
+  "video": {
+    "compliance_brief": "Requires demonstrations on at least two activities; no explicit video-file requirement",
+    "global_rulebook": "No explicit universal video-file requirement",
+    "form_observed": "Existing Site to MCP technical submission form labels media optional, up to5 files/25MB each",
+    "compliance_map_final_form": "Not inspected; bounty remains unclaimed",
+    "recorded_video_exists": false
+  }
 }
