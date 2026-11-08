@@ -1,0 +1,72 @@
+{
+  "kind": "compliance-qualified-backend-validation",
+  "checked_at": "2026-11-08T13:02:13.361321+00:00",
+  "scope": "Offline annual-fee release correction; no server/web/package changes.",
+  "tests": {
+    "command": "node --import tsx --test compliance-map/test/audit.test.ts compliance-map/test/general.test.ts compliance-map/test/decision.test.ts",
+    "passed": 31,
+    "failed": 0
+  },
+  "typecheck": {
+    "command": "npm run typecheck",
+    "exit_code": 0
+  },
+  "additional_typecheck": {
+    "command": "npx tsc --noEmit <matching strict NodeNext flags> compliance-map/src/audit.ts compliance-map/test/audit.test.ts compliance-map/scripts/qualify-existing.ts",
+    "exit_code": 0
+  },
+  "format": {
+    "command": "npx prettier --check compliance-map/src/audit.ts compliance-map/test/audit.test.ts compliance-map/scripts/qualify-existing.ts",
+    "exit_code": 0
+  },
+  "offline_real_entrypoint": {
+    "command": "node --import tsx compliance-map/scripts/qualify-existing.ts <existing-private-review> <original-private-batch> --replace-derived",
+    "exit_code": 0,
+    "provider_operations": 0
+  },
+  "assertions": {
+    "activities": 2,
+    "places_each": 3,
+    "accepted_steps": 31,
+    "withheld_steps": 2,
+    "scoped_recommendations": 2,
+    "nyc_standard_permit_fee": {
+      "amount": 280,
+      "currency": "USD",
+      "period": "annual"
+    },
+    "annual_period_from_separate_existing_ordinary_https_check": true,
+    "annual_inspection_text_not_used_as_fee_period_proof": true,
+    "tinyfish_source_counts_and_body_hashes_unchanged": true,
+    "prior_ordinary_https_period_checks": 1,
+    "legacy_recommendation_matches_canonical_decision": true,
+    "raw_recommendation_contains_no_placeholder": true,
+    "max_exported_quote_words_per_source_including_period_corroboration": 25,
+    "original_receipt_unchanged": true,
+    "new_network_calls": 0,
+    "new_paid_jobs": 0,
+    "pool_halted_and_no_retry": true
+  },
+  "copy_changed_files": [
+    "src/audit.ts",
+    "test/audit.test.ts",
+    "scripts/qualify-existing.ts",
+    "evidence/qualified-batch-report.json",
+    "evidence/qualified-batch-decision.json",
+    "evidence/qualified-batch-metadata.json",
+    "evidence/criterion-status.json",
+    "evidence/qualified-validation.json"
+  ],
+  "copy_required_unchanged_file": "evidence/source-review/report.json",
+  "sha256": {
+    "src/audit.ts": "1fc55e2ffb3d8e78d67f099c727c22fb2b24e02f221842e86790f3568348b840",
+    "test/audit.test.ts": "0770ac2ec9e927b6a3cd2209b19b6e835583c10728d4acecd4e363ee016733a3",
+    "scripts/qualify-existing.ts": "be5c9ed80834ec332332e546a53611f331b07893a7265a2b9a2f7e31f94634bf",
+    "evidence/qualified-batch-report.json": "cd6af1b3381aa2186760515c161f43d811100f17863e7c7fe734f84bcf31fc73",
+    "evidence/qualified-batch-decision.json": "ddbd2dc2920d204cbdc2fa78a2de7eaa6edd2d50518f81c16befa6aa1b27d711",
+    "evidence/qualified-batch-metadata.json": "9577f56189eff613657cf6fea4a63c84b3b755cf43e78d46fb6aaec9f552a2f7",
+    "evidence/official-source-audit.json": "bbefa8a36de3dbcca34fb6ff1bc65a8db683231fb873c9fb05e88ba9f9c1c7bf",
+    "evidence/criterion-status.json": "ffa8ad197b1b86885c47c0b7451957120a3b5611796e7d675f2c5d31cf7fded8",
+    "evidence/source-review/report.json": "1c11897c0496503f9b67ff9dbefb662382b8e232b8ab7bf2d19cc92816316785"
+  }
+}

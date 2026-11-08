@@ -1,0 +1,335 @@
+{
+  "format": "compliance-map-result-v1",
+  "scenario": {
+    "business": "fixed-premises-cafe",
+    "priority": "registration_fee",
+    "scope_confirmed": true
+  },
+  "scope": "Small fixed-premises café selling coffee and prepared food directly to consumers. No alcohol, outdoor seating, late-night service, frozen desserts or wholesale supply. Premises use, planning, building, fire and occupancy approvals are separate checks.",
+  "status": "source_review",
+  "evidence_mode": "source_review",
+  "provider_run_id": null,
+  "observed_at": "2026-11-08T07:15:10.000Z",
+  "jurisdictions": [
+    {
+      "id": "city-of-london",
+      "name": "City of London",
+      "region": "England · Square Mile",
+      "currency": "GBP",
+      "facts": [
+        {
+          "id": "food-registration",
+          "category": "registration",
+          "claim": "Most new food businesses must register with the City of London.",
+          "value": {
+            "type": "text",
+            "summary": "Food premises registration with the local authority for this Square Mile location."
+          },
+          "sources": [
+            {
+              "url": "https://www.cityoflondon.gov.uk/services/business-standards/food-safety/food-premises-registration",
+              "title": "Food premises registration — City of London",
+              "quote": "required by law to register",
+              "published_on": "2026-07-01",
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.098Z",
+              "text_sha256": "391804b79150649493b7ee59a1d192d6e6c820357e22f7a473cc02c7cf555705"
+            }
+          ]
+        },
+        {
+          "id": "registration-fee",
+          "category": "fee",
+          "claim": "Food-business registration is free. This excludes all other startup and operating costs.",
+          "value": {
+            "type": "fee",
+            "amount": 0,
+            "currency": "GBP",
+            "period": "registration",
+            "scope": "Food-business registration only; changes and other approvals need separate review."
+          },
+          "sources": [
+            {
+              "url": "https://www.cityoflondon.gov.uk/services/business-standards/food-safety/food-premises-registration",
+              "title": "Food premises registration — City of London",
+              "quote": "registration is free of charge",
+              "published_on": "2026-07-01",
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.098Z",
+              "text_sha256": "391804b79150649493b7ee59a1d192d6e6c820357e22f7a473cc02c7cf555705"
+            }
+          ]
+        },
+        {
+          "id": "advance-notice",
+          "category": "timing",
+          "claim": "The page states registration 28 days before opening.",
+          "value": {
+            "type": "timing",
+            "days_min": 28,
+            "days_max": 28,
+            "kind": "advance_notice",
+            "conditions": "A notice requirement, not a processing-time estimate. The page also says business can continue after submission; confirm interpretation with the authority."
+          },
+          "sources": [
+            {
+              "url": "https://www.cityoflondon.gov.uk/services/business-standards/food-safety/food-premises-registration",
+              "title": "Food premises registration — City of London",
+              "quote": "28 days prior to opening",
+              "published_on": "2026-07-01",
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.098Z",
+              "text_sha256": "391804b79150649493b7ee59a1d192d6e6c820357e22f7a473cc02c7cf555705"
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        "The local page combines 28-day advance registration wording with a statement about continuing after submission; resolve the opening-date interpretation with the authority.",
+        "Training format, premises permissions and total startup cost were not researched."
+      ]
+    },
+    {
+      "id": "new-york-city",
+      "name": "New York City",
+      "region": "New York · United States",
+      "currency": "USD",
+      "facts": [
+        {
+          "id": "food-permit",
+          "category": "registration",
+          "claim": "Food service establishments require a DOHMH permit.",
+          "value": {
+            "type": "text",
+            "summary": "The published food-service definition covers prepared food sold for on-site use or takeaway."
+          },
+          "sources": [
+            {
+              "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+              "title": "Food Service Establishment Permit — NYC",
+              "quote": "need a permit",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.631Z",
+              "text_sha256": "a8064f660bb1bf0e428b9243d9221730ad07d22f12308c736eda8a6f330bc9c4"
+            }
+          ]
+        },
+        {
+          "id": "permit-fee",
+          "category": "fee",
+          "claim": "The standard food-service permit fee is $280 annually; this scenario excludes the frozen-dessert surcharge.",
+          "value": {
+            "type": "fee",
+            "amount": 280,
+            "currency": "USD",
+            "period": "annual",
+            "scope": "Standard food-service establishment permit only, subject to applicable exceptions; other costs excluded."
+          },
+          "sources": [
+            {
+              "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+              "title": "Food Service Establishment Permit — NYC",
+              "quote": "$280.00",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.631Z",
+              "text_sha256": "a8064f660bb1bf0e428b9243d9221730ad07d22f12308c736eda8a6f330bc9c4"
+            },
+            {
+              "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+              "title": "Food Service Establishment Permit — NYC",
+              "quote": "Annually",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.631Z",
+              "text_sha256": "a8064f660bb1bf0e428b9243d9221730ad07d22f12308c736eda8a6f330bc9c4"
+            }
+          ]
+        },
+        {
+          "id": "operation-route",
+          "category": "timing",
+          "claim": "The published application route allows operation after 22 days, subject to the other requirements.",
+          "value": {
+            "type": "timing",
+            "days_min": 22,
+            "days_max": 22,
+            "kind": "operation_route",
+            "conditions": "Earlier opening may involve a pre-operating inspection. Food protection certification and other agency requirements still apply; not a guaranteed opening date."
+          },
+          "sources": [
+            {
+              "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+              "title": "Food Service Establishment Permit — NYC",
+              "quote": "22 days after you submit your application",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.631Z",
+              "text_sha256": "a8064f660bb1bf0e428b9243d9221730ad07d22f12308c736eda8a6f330bc9c4"
+            }
+          ]
+        },
+        {
+          "id": "food-manager",
+          "category": "training",
+          "claim": "A supervising manager needs the Food Protection Course and must be present; certification is required before opening.",
+          "value": {
+            "type": "text",
+            "summary": "Food Protection Certificate requirements must be planned separately; course fees and availability are not established here."
+          },
+          "sources": [
+            {
+              "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+              "title": "Food Service Establishment Permit — NYC",
+              "quote": "A supervising manager must pass a Food Protection Course",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:22.631Z",
+              "text_sha256": "a8064f660bb1bf0e428b9243d9221730ad07d22f12308c736eda8a6f330bc9c4"
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        "Exact premises, food-manager course cost, insurance and other applicable fees remain unpriced.",
+        "The 22-day food-permit route does not replace building or occupancy clearance."
+      ]
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "region": "Republic of Ireland",
+      "currency": "EUR",
+      "facts": [
+        {
+          "id": "hse-notification",
+          "category": "registration",
+          "claim": "Notify the HSE before starting this food business.",
+          "value": {
+            "type": "text",
+            "summary": "HSE records and assesses the notification, registers eligible businesses and issues an acknowledgement."
+          },
+          "sources": [
+            {
+              "url": "https://about.hse.ie/environmental-health/notify-the-hse-about-starting-a-food-business/",
+              "title": "Notify the HSE about starting a food business",
+              "quote": "must notify the HSE before you start operating",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:23.650Z",
+              "text_sha256": "1ef415ba91ba7d58a826df614e54a911c68005c56136f372c7a273dc91d7cf03"
+            }
+          ]
+        },
+        {
+          "id": "notification-fee",
+          "category": "fee",
+          "claim": "The published notification fee is zero; premises and other obligations are separate.",
+          "value": {
+            "type": "fee",
+            "amount": 0,
+            "currency": "EUR",
+            "period": "registration",
+            "scope": "Food-business notification only. Direct consumer café, no wholesale animal-origin processing."
+          },
+          "sources": [
+            {
+              "url": "https://www.pointofsinglecontact.ie/browse-by-sector/food/opening-a-cafe-restaurant/",
+              "title": "Starting a Food Service Business — Irish Point of Single Contact",
+              "quote": "There is no cost to notifying a food business.",
+              "published_on": "2024-09-03",
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:24.778Z",
+              "text_sha256": "3b9de9d67f009d173e410fd788e03b1a7b4eb98bc029dd9d2e36418f9e97c389"
+            }
+          ]
+        },
+        {
+          "id": "before-operation",
+          "category": "scope",
+          "claim": "Notification must happen before operation; the HSE page gives no fixed day count.",
+          "value": {
+            "type": "text",
+            "summary": "No numeric legal waiting period is established by this source."
+          },
+          "sources": [
+            {
+              "url": "https://about.hse.ie/environmental-health/notify-the-hse-about-starting-a-food-business/",
+              "title": "Notify the HSE about starting a food business",
+              "quote": "before you start operating a food business",
+              "published_on": null,
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:23.650Z",
+              "text_sha256": "1ef415ba91ba7d58a826df614e54a911c68005c56136f372c7a273dc91d7cf03"
+            }
+          ]
+        },
+        {
+          "id": "processing-estimate",
+          "category": "timing",
+          "claim": "The information page estimates confirmation in 3–5 days when details are correct.",
+          "value": {
+            "type": "timing",
+            "days_min": 3,
+            "days_max": 5,
+            "kind": "typical_processing",
+            "conditions": "Typical administrative confirmation only, not a legal waiting period or guaranteed opening time. Excludes wholesale animal-origin approval."
+          },
+          "sources": [
+            {
+              "url": "https://www.pointofsinglecontact.ie/browse-by-sector/food/opening-a-cafe-restaurant/",
+              "title": "Starting a Food Service Business — Irish Point of Single Contact",
+              "quote": "generally only takes 3-5 days",
+              "published_on": "2024-09-03",
+              "observed_at": "2026-11-08T07:15:10.000Z",
+              "quote_check": "matched",
+              "checked_at": "2026-11-08T07:22:24.778Z",
+              "text_sha256": "3b9de9d67f009d173e410fd788e03b1a7b4eb98bc029dd9d2e36418f9e97c389"
+            }
+          ]
+        }
+      ],
+      "unknowns": [
+        "The 3–5-day estimate comes from guidance last updated in September 2024; confirm current service time.",
+        "No fixed legal waiting-day count, training format, premises clearance or total cost is established.",
+        "Confirm registration versus approval for the exact menu and handling activities with the HSE."
+      ]
+    }
+  ],
+  "recommendation": {
+    "priority": "registration_fee",
+    "shortlist": [
+      "city-of-london",
+      "dublin"
+    ],
+    "basis": [
+      {
+        "jurisdiction": "city-of-london",
+        "fact_id": "registration-fee"
+      },
+      {
+        "jurisdiction": "dublin",
+        "fact_id": "notification-fee"
+      }
+    ],
+    "label": "Provisional research shortlist",
+    "explanation": "Shortlist places with a cited zero food-registration charge. This does not compare total setup or operating cost; periods and currencies remain separate, and nonzero amounts are not ranked across currencies.",
+    "caveat": "No overall easiest, cheapest or fastest jurisdiction is established. Quote matches support text presence only; current applicability and legal completeness need authority review."
+  },
+  "limitations": [
+    "Manually reviewed official pages, not a TinyResearch execution. Quoted excerpts remain not_checked until the source corroboration command fetches the exact pages.",
+    "Food-entry comparison only. No overall cheapest or fastest city, currency conversion, total setup cost or legal completeness is established."
+  ]
+}

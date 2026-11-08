@@ -1,0 +1,372 @@
+{
+  "kind": "compliance-source-audit-v1",
+  "provider": "tinyfish-fetch",
+  "distinct_source_checks": 36,
+  "max_authorized": 40,
+  "reservation_unit_price_microusd": 0,
+  "halted": true,
+  "automatic_retry": false,
+  "outcomes": [
+    {
+      "index": 1,
+      "url": "https://www.cityoflondon.gov.uk/services/business-standards/food-safety/food-premises-registration",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:15:54.578Z",
+      "reservation_id": "473f38fc-0f49-4a4c-8b41-f272197543c2",
+      "text_sha256": "db4252dcd8135da1ee6beaa6421cf4bca4801cada18d1612afe623ad14b4e583",
+      "selected_html_bytes": 11347,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 2,
+      "url": "https://www.gov.uk/guidance/starting-a-food-business",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:15:58.758Z",
+      "reservation_id": "6c8252ba-9a60-42a2-b7a3-494e44080b93",
+      "text_sha256": "2f3ca5fa99d15c48a2a89ec0ddf5001de86f45b0aa1a684a67d3fb80c9da5dab",
+      "selected_html_bytes": 95907,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 3,
+      "url": "https://www.legislation.gov.uk/ukpga/2003/17/schedule/2/crossheading/the-provision-of-late-night-refreshment",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:00.755Z",
+      "reservation_id": "5963db44-50ec-4308-93e7-cc3c7d40ae72",
+      "text_sha256": "2bcd2dcd8387ba39ba11c73764ee39f449a3f7aa5aaeffdea4412a38f5b15c36",
+      "selected_html_bytes": 30059,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 4,
+      "url": "https://www.cityoflondon.gov.uk/services/licensing/alcohol-and-entertainment/licensing-fees",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:03.123Z",
+      "reservation_id": "867d71ed-24d3-4730-a8ed-199161a24a81",
+      "text_sha256": "33f9fbb5fd9975499faa084fbfc74b377cee5adc2afdec43680543640ec6bd75",
+      "selected_html_bytes": 9089,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 5,
+      "url": "https://www.cityoflondon.gov.uk/services/business-standards/food-safety/food-hygiene-rating-scheme",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:05.621Z",
+      "reservation_id": "c744fc4d-88ec-4b80-a37b-85829d5e0877",
+      "text_sha256": "6ed950478f30793c6e233f34054757ead6bf8ddf3b2fe57ecfc4d1c2dee954d2",
+      "selected_html_bytes": 14382,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 6,
+      "url": "https://www.gov.uk/government/publications/food-hygiene-rating-scheme-fhrs-guidance-for-businesses/food-hygiene-rating-scheme-fhrs-guidance-for-businesses",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:08.440Z",
+      "reservation_id": "30cf67cb-3c89-4272-b10e-f8a655b3d634",
+      "text_sha256": "5c635c1ec4616c41983ece4eaf34700099c3ea30cf568181b8b0b34fc3fe17b4",
+      "selected_html_bytes": 62033,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 7,
+      "url": "https://www.cityoflondon.gov.uk/services/business-rates/how-your-bill-is-calculated",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:10.893Z",
+      "reservation_id": "d8d61998-d705-48f9-bbc5-e73f363850df",
+      "text_sha256": "58596771ccf5d8d7f6c00f2b42ac99b31863ac42c2c8c2c417b4a7257841061a",
+      "selected_html_bytes": 10968,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 8,
+      "url": "https://www.cityoflondon.gov.uk/services/business-rates/business-rate-reductions",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:13.156Z",
+      "reservation_id": "4a2c530b-9ac4-4a5a-a7ea-340139e17276",
+      "text_sha256": "f9754310d8561b88cdd01e7e708c645d7da62611187072ce1abb2512d709e80c",
+      "selected_html_bytes": 35257,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 9,
+      "url": "https://www.gov.uk/self-assessment-tax-returns/deadlines",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:16.329Z",
+      "reservation_id": "50854c1c-5347-4db5-9598-1cc7018c0ebc",
+      "text_sha256": "4cd09289d238bf1cfc889e1692d97aa8895f7056b86c7c09efc3fc907ee257d7",
+      "selected_html_bytes": 42734,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 10,
+      "url": "https://www.gov.uk/self-employed-national-insurance-rates",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:20.774Z",
+      "reservation_id": "37db9b36-7d6f-4dec-ba0b-d180729de9fc",
+      "text_sha256": "89f4fd0f6758390a0d955b5c3e388b00483156a8e4024e78fc3b6f9664f03da3",
+      "selected_html_bytes": 33692,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 11,
+      "url": "https://www.gov.uk/how-vat-works/vat-thresholds",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:23.596Z",
+      "reservation_id": "f6ccf545-d742-4b92-8050-754d3c8933a1",
+      "text_sha256": "94a70692cdc416df4fd3315da0cc68ae36f4523714201790dd98d70429237ea0",
+      "selected_html_bytes": 34989,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 12,
+      "url": "https://www.gov.uk/become-sole-trader",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:26.246Z",
+      "reservation_id": "3399749e-8c72-4179-9820-53d9ee1bf5a2",
+      "text_sha256": "bff6e8d78b72758ad5a84d47d0cf09d9f59acc4d9edcb720f239f267a30d4503",
+      "selected_html_bytes": 44037,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 13,
+      "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-service-establishment-permit",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:29.746Z",
+      "reservation_id": "a706ad4f-bcf7-4c94-9488-ee5c285705bb",
+      "text_sha256": "4a0f9fb2d5da13d3c6e711a9ca4ea05c996ec0b44e15a4cb0325d9e8e55f253f",
+      "selected_html_bytes": 24057,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 14,
+      "url": "https://nyc-business.nyc.gov/nycbusiness/description/food-protection-certificate",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:31.771Z",
+      "reservation_id": "1cc8637b-427a-4c83-bd08-1d9c68fca9e1",
+      "text_sha256": "a6f84e0a138246d6a92bdf8d58a0063094468e825e2d78c24d1653a399f8cc56",
+      "selected_html_bytes": 9489,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 15,
+      "url": "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/how_to_register_for_nys_sales_tax.htm",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:34.436Z",
+      "reservation_id": "89fb17d5-2995-4503-8e71-312149d74049",
+      "text_sha256": "a8c12ccc61af4aa8f9f83fb6d4b4fbf9fc9be4924794fbf23cd990b3ffec4482",
+      "selected_html_bytes": 25223,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 16,
+      "url": "https://portal.311.nyc.gov/article/?kanumber=KA-02601",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:37.663Z",
+      "reservation_id": "60494366-848c-49ca-8a83-a09bb4c76cd3",
+      "text_sha256": "768e98ceaa16cba67edb3768e2e0951f27e86eb706f280517b5ab6a5aada63ff",
+      "selected_html_bytes": 96839,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 17,
+      "url": "https://nyc-business.nyc.gov/nycbusiness/description/certificate-of-assumed-name-business-certificate",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:39.474Z",
+      "reservation_id": "632416c2-09e9-407f-8ff0-1c52f4a689f3",
+      "text_sha256": "d9ebcaa9d83fa71029780b64e886ec9495e83116e293a80f03a6298a0adafa99",
+      "selected_html_bytes": 4951,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 18,
+      "url": "https://www.nyc.gov/site/finance/business/business-unincorporated-business-tax-ubt.page",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:41.117Z",
+      "reservation_id": "1a23fce2-0e6c-405b-8a01-699d1adba3d5",
+      "text_sha256": "35a9383f29c306f99c2ce39a5cb6f8b4fb476b5c2c281828c68d7483838777ae",
+      "selected_html_bytes": 17619,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 19,
+      "url": "https://about.hse.ie/environmental-health/notify-the-hse-about-starting-a-food-business/",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:43.666Z",
+      "reservation_id": "5b945118-e82f-4fe0-b000-02521593f087",
+      "text_sha256": "525a6016f43035cce0e3d08f1e9b9d5004867fe8e111f9c571529e84dd0fb7a7",
+      "selected_html_bytes": 11967,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 20,
+      "url": "https://www.fsai.ie/business-advice/starting-a-food-business",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:53.650Z",
+      "reservation_id": "b222ea02-ae95-47f8-be1f-41ef0b7c6f77",
+      "text_sha256": "8834f650234d6b045cb3c2116b231774962ebaae1672b11745f993313a474dd1",
+      "selected_html_bytes": 9563,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 21,
+      "url": "https://www.fsai.ie/business-advice/running-a-food-business/food-safety-management-system-(haccp)/meet-haccp-requirements",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:16:56.298Z",
+      "reservation_id": "73281cb9-6a35-4b55-95e3-7f7b835360e3",
+      "text_sha256": "869d8b6012ce77f24f28af0f38514f013e97bb6483f77e835868a97be6442b9e",
+      "selected_html_bytes": 9912,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 22,
+      "url": "https://cro.ie/registration/business-name/",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:05.803Z",
+      "reservation_id": "9b18a3c4-86fe-4baf-8b16-4961dff556a5",
+      "text_sha256": "1b7e12d2d7837b29e8941d469c8b810803da13f159afeaf7d2f6d0ea12ce31cd",
+      "selected_html_bytes": 122380,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 23,
+      "url": "https://www.revenue.ie/en/starting-a-business/registering-for-tax/how-to-register-for-tax-as-a-sole-trader.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:08.244Z",
+      "reservation_id": "d39d226a-c30e-452a-ac27-033ea097c00a",
+      "text_sha256": "8f6649bae8ee7dcdb58101a5bf2e4c2c2b1d42608fe30beca7fd0d1609b6de6f",
+      "selected_html_bytes": 14567,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 24,
+      "url": "https://www.revenue.ie/en/vat/vat-registration/who-should-register-for-vat/vat-thresholds.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:17.662Z",
+      "reservation_id": "fb39a556-bbe6-414c-96a5-456a5835a503",
+      "text_sha256": "3a9b8783c01d16c71f1993e2a931ae8dacd661b28f6e9fb9ba6bf0b32213230d",
+      "selected_html_bytes": 12415,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 25,
+      "url": "https://www.revenue.ie/en/jobs-and-pensions/calculating-your-income-tax/tax-rate-band.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:20.496Z",
+      "reservation_id": "bd67fd90-a805-40da-a856-286889208b74",
+      "text_sha256": "21284451ce43ba5a325cae08378732362f68c52452a9910bba616a76f8bf8131",
+      "selected_html_bytes": 18344,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 26,
+      "url": "https://www.revenue.ie/en/jobs-and-pensions/usc/standard-rates-thresholds.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:22.149Z",
+      "reservation_id": "e60852c6-f1ea-4de7-a195-330910db4e80",
+      "text_sha256": "8ce835b2ab34f75c07a7c18272393e5b3ec0513f0032b8c4ea66ba420cf8017e",
+      "selected_html_bytes": 11220,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 27,
+      "url": "https://www.revenue.ie/en/self-assessment-and-self-employment/guide-to-self-assessment/prsi-need-pay.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:24.626Z",
+      "reservation_id": "de002594-a593-405e-a877-0661f4386d8a",
+      "text_sha256": "818d24f7cf1bb06f179ea196c64c125545b4d2bac401171d673e6bc1cfa5285f",
+      "selected_html_bytes": 14757,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 28,
+      "url": "https://www.gov.uk/run-business-from-home",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:26.755Z",
+      "reservation_id": "ee326fcc-b95d-4a3a-892a-87c433df5cd0",
+      "text_sha256": "70cf1c6129b6ed9fd95136e7dd43177981d2428a7a316322e3dab45f50974bef",
+      "selected_html_bytes": 33117,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 29,
+      "url": "https://www.gov.uk/introduction-to-business-rates/working-at-home",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:29.323Z",
+      "reservation_id": "915a7a35-dd4d-4256-bb72-faeac88ccc37",
+      "text_sha256": "ccb99255fcdd69868d9ca3b747391b7dcf8a81824ec6b3aacab5827c072ae867",
+      "selected_html_bytes": 34203,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 30,
+      "url": "https://www.gov.uk/guidance/sign-up-for-making-tax-digital-for-income-tax",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:31.808Z",
+      "reservation_id": "e4015509-b2bf-49d0-9af3-807b7960a70b",
+      "text_sha256": "a77a1aa42388d23fb5eab114272f0944927c61a1d89f527b26dd133d3ba62dbd",
+      "selected_html_bytes": 52792,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 31,
+      "url": "https://www.gov.uk/guidance/find-out-if-and-when-you-need-to-use-making-tax-digital-for-income-tax",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:35.308Z",
+      "reservation_id": "6ec194a2-0aae-4dc1-924a-78edb00cde5a",
+      "text_sha256": "859d7e6ccb148b74047072b3007c19a0fcf98bb2e03efdbe6535304a0e4bade3",
+      "selected_html_bytes": 47527,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 32,
+      "url": "https://www.revenue.ie/en/self-assessment-and-self-employment/guide-to-self-assessment/pay-file-system.aspx",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:37.476Z",
+      "reservation_id": "27ad3a87-b5fc-4e95-881d-d1483c51796f",
+      "text_sha256": "eb950bd1f2bfa7edf73a5fff47ecdd4e0b17d58d0bfc12c0fef32f67b4153802",
+      "selected_html_bytes": 17012,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 33,
+      "url": "https://www.pointofsinglecontact.ie/browse-by-sector/food/opening-a-cafe-restaurant/",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:50.908Z",
+      "reservation_id": "8077f133-0cd7-477b-89a9-9d3e7df50e6d",
+      "text_sha256": "9d84403a99230459f94201bfff9710d296cf2e305c8cb6d8159d751400bf0820",
+      "selected_html_bytes": 41998,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 34,
+      "url": "https://cro.ie/publications/business-names-forms-fees/",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:17:59.258Z",
+      "reservation_id": "2de90e04-3cba-4ab3-b581-a84e2cbfce97",
+      "text_sha256": "c458b59f6f518de8927377c1d41e884e86d89bb7a8e9bb83a352c71e53e6d78c",
+      "selected_html_bytes": 117187,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 35,
+      "url": "https://www.nyc.gov/site/doh/business/health-academy/food-protection-online-free.page",
+      "status": "fetched",
+      "observed_at": "2026-11-08T12:18:01.748Z",
+      "reservation_id": "624e031e-0aca-4441-9a38-f3d654dd36df",
+      "text_sha256": "ebe01484baa103bbfa280396d0d2d9c280b6474d4568abd50f0d79ce46072e0e",
+      "selected_html_bytes": 8447,
+      "semantic_verification": "not_established"
+    },
+    {
+      "index": 36,
+      "url": "https://zr.planning.nyc.gov/article-i/chapter-2/12-10",
+      "status": "not_corroborated",
+      "error": "PROVIDER_CONTRACT_CHANGED",
+      "source_code": null,
+      "source_http_status": null,
+      "dispatched": true,
+      "automatic_retry": false,
+      "pool_halted": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "compliance-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "tsx compliance-map/src/server.ts",
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "node scripts/run-tests.mjs",
+    "pool": "tsx shared/cli.ts",
+    "format:check": "prettier --check \"compliance-map/{src,web,test}/**/*.ts\" \"shared/**/*.ts\" \"providers/**/*.ts\" \"scripts/*.mjs\" README.md package.json tsconfig.json"
+  },
+  "dependencies": {
+    "cheerio": "1.2.0",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "prettier": "3.9.10",
+    "tsx": "4.23.15",
+    "typescript": "5.9.3"
+  },
+  "description": "Compare business startup requirements across places with reviewed official-source evidence."
+}

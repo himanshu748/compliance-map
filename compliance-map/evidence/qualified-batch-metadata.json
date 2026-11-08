@@ -1,0 +1,76 @@
+{
+  "kind": "compliance-qualified-offline-derivation",
+  "created_at": "2026-11-08T13:00:43.738Z",
+  "original_receipt_sha256": "ee674ada5aac76b454be27ba152c4e408e4a53fe357a8875782f312d34091c72",
+  "reviewed_model_sha256": "c85494abfef3c067d1dbfed9a571bf5b4a2f3385773f579d7c1ca57724248c7a",
+  "claim_reviews_sha256": "dec0dbed6026753e69c0b5f9e057073ac0dce49516b77bf7e6f5ed79b3e4f57e",
+  "audit_engine_sha256": "1fc55e2ffb3d8e78d67f099c727c22fb2b24e02f221842e86790f3568348b840",
+  "decision_engine_sha256": "df64cdbdc2b4c3b7042d68e261db2e58565ea5bdeb4c17c51180222e1b43e84e",
+  "source_audit_sha256": "bbefa8a36de3dbcca34fb6ff1bc65a8db683231fb873c9fb05e88ba9f9c1c7bf",
+  "secondary_period_corroboration_file": "source-review/report.json",
+  "secondary_period_corroboration_sha256": "1c11897c0496503f9b67ff9dbefb662382b8e232b8ab7bf2d19cc92816316785",
+  "secondary_ordinary_https_period_checks": 1,
+  "originals_preserved": true,
+  "provider_operations_in_this_derivation": 0,
+  "accepted_steps": 31,
+  "withheld_steps": 2,
+  "coverage": [
+    {
+      "activity": "cafe",
+      "places": [
+        {
+          "place_id": "city-of-london",
+          "steps": 7,
+          "source_checked_steps": 7
+        },
+        {
+          "place_id": "new-york-city",
+          "steps": 7,
+          "source_checked_steps": 7
+        },
+        {
+          "place_id": "dublin",
+          "steps": 5,
+          "source_checked_steps": 5
+        }
+      ]
+    },
+    {
+      "activity": "software-consultancy",
+      "places": [
+        {
+          "place_id": "city-of-london",
+          "steps": 5,
+          "source_checked_steps": 5
+        },
+        {
+          "place_id": "new-york-city",
+          "steps": 3,
+          "source_checked_steps": 3
+        },
+        {
+          "place_id": "dublin",
+          "steps": 4,
+          "source_checked_steps": 4
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "activity_id": "cafe",
+      "status": "scoped_preference",
+      "shortlist": [
+        "city-of-london",
+        "dublin"
+      ]
+    },
+    {
+      "activity_id": "software-consultancy",
+      "status": "scoped_preference",
+      "shortlist": [
+        "city-of-london"
+      ]
+    }
+  ]
+}

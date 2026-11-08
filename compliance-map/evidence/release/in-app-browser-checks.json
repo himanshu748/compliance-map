@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-11-08T13:08:23.503Z",
+  "origin": "http://127.0.0.1:4390",
+  "browser": "ChatGPT in-app browser",
+  "live_enabled": false,
+  "viewports": [
+    {
+      "width": 1280,
+      "height": 720,
+      "outer_overflow": false
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "outer_overflow": false,
+      "table_client_width": 341,
+      "table_scroll_width": 760
+    },
+    {
+      "width": 320,
+      "height": 740,
+      "outer_overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "outer_overflow": false
+    }
+  ],
+  "checks": {
+    "both_activity_tabs": true,
+    "aligned_dimensions": 11,
+    "columns": 4,
+    "source_panels_open": 12,
+    "official_links_and_checked_dates": true,
+    "scoped_recommendations": true,
+    "annual_nyc_fee_visible": true,
+    "filters_leave_summary_intact": true,
+    "keyboard_focus_visible": true,
+    "keyboard_table_scroll_left": 40,
+    "manual_reduced_motion": {
+      "route_animation": "none",
+      "route_duration": "0s",
+      "button_transition": "0s",
+      "scroll_behavior": "auto"
+    },
+    "different_activity_and_three_places_brief_export": true,
+    "brief_does_not_replace_recorded_evidence": true,
+    "fresh_research_disabled": true,
+    "report_download_path": "compliance-map-report (1).json",
+    "viewport_override_reset_called": true
+  },
+  "limits": [
+    "OS-level reduced-motion emulation unavailable; app motion control and CSS behavior checked.",
+    "No new provider run; genuine recorded Research and audited source evidence displayed.",
+    "The viewport reset command was issued; the existing tab retained its last rendered size."
+  ]
+}

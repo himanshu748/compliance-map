@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-08T13:12:49.883398+00:00",
+  "method": "isolated copy of all staged public files; no node_modules, dist, private state or source dependency symlinks",
+  "results": [
+    {
+      "command": "npm ci",
+      "exit_code": 0,
+      "log": "clean-install.txt"
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "log": "clean-tests.txt"
+    },
+    {
+      "command": "npm run typecheck",
+      "exit_code": 0,
+      "log": "clean-typecheck.txt"
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "log": "clean-build.txt"
+    }
+  ],
+  "passed": true
+}

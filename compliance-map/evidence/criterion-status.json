@@ -1,0 +1,160 @@
+{
+  "format": "compliance-map-criterion-evidence-v1",
+  "checked_at": "2026-11-08T13:00:43.738Z",
+  "scope": "Backend/source evidence only; the parent owns current UI, packaging and publication checks.",
+  "brief": {
+    "source": "https://www.tinybounties.com/",
+    "captured_on": "2026-11-08",
+    "capture": "work/all-bounties/research/current-portal/compliance-map-full.txt"
+  },
+  "original_research_run_id": "01a1ba34-7c95-7888-8787-ebfedb8187fb",
+  "original_receipt_sha256": "ee674ada5aac76b454be27ba152c4e408e4a53fe357a8875782f312d34091c72",
+  "source_evidence": {
+    "artifact": "official-source-audit.json",
+    "distinct_operations": 36,
+    "retrieved": 35,
+    "uncorroborated": 1,
+    "pool_halted": true,
+    "retries": 0,
+    "new_paid_jobs": 0,
+    "prior_ordinary_https_period_checks": {
+      "count": 1,
+      "artifact": "source-review/report.json",
+      "artifact_sha256": "1c11897c0496503f9b67ff9dbefb662382b8e232b8ab7bf2d19cc92816316785",
+      "checked_at": "2026-11-08T07:22:22.631Z",
+      "method": "ordinary_https_source_review",
+      "included_in_tinyfish_fetch_counts": false
+    }
+  },
+  "requirements": [
+    {
+      "id": "S1",
+      "requirement": "Activity and at least three places are inputs",
+      "status": "verified",
+      "evidence": [
+        "src/general.ts",
+        "test/general.test.ts"
+      ],
+      "limits": "Actual live demonstrations use the same three places; different-place query behavior is tested locally."
+    },
+    {
+      "id": "S2",
+      "requirement": "Requirements come from official government sources",
+      "status": "verified_with_explicit_gaps",
+      "evidence": [
+        "qualified-batch-report.json",
+        "official-source-audit.json"
+      ],
+      "limits": "31 narrowed requirements have explicit local field review and exact-source evidence; 2 unsupported home-premises requirements remain withheld."
+    },
+    {
+      "id": "S3",
+      "requirement": "Side-by-side steps, total cost, approval time, renewals and filings",
+      "status": "verified_with_explicit_gaps",
+      "evidence": [
+        "qualified-batch-decision.json",
+        "src/decision.ts"
+      ],
+      "limits": "Known fee subtotals stay separate by currency/period and applicability. Complete total costs and end-to-end approval times remain null; this is displayed as unknown, never zero."
+    },
+    {
+      "id": "S4",
+      "requirement": "Recommendation with trade-offs",
+      "status": "verified",
+      "evidence": [
+        "qualified-batch-decision.json"
+      ],
+      "limits": "Café recommendation concerns food-registration fees only. Consultancy recommendation concerns documented permission to trade before sole-trader registration; neither is an overall easiest/fastest claim."
+    },
+    {
+      "id": "S5",
+      "requirement": "Demonstrate two different activities",
+      "status": "verified",
+      "evidence": [
+        "live-batch-metadata.json",
+        "qualified-batch-report.json"
+      ],
+      "limits": "One genuine Deep batch, two activities × three places; not two independent Research jobs."
+    },
+    {
+      "id": "S6",
+      "requirement": "Use TinyResearch and explain its use",
+      "status": "verified",
+      "evidence": [
+        "src/service.ts",
+        "live-batch-metadata.json"
+      ],
+      "limits": "TinyResearch discovered the original 33 requirements; subsequent one-URL TinyFish Fetch observations support the local field audit. No new paid Research job was started."
+    },
+    {
+      "id": "A1",
+      "requirement": "Every retained requirement has official source/date checked",
+      "status": "verified",
+      "evidence": [
+        "qualified-batch-report.json",
+        "test/audit.test.ts"
+      ],
+      "limits": "Matched excerpt plus explicit interpretation review; no claim of legal completeness or human legal review."
+    },
+    {
+      "id": "A2",
+      "requirement": "Comparable categories across every place",
+      "status": "verified",
+      "evidence": [
+        "qualified-batch-decision.json",
+        "test/decision.test.ts"
+      ],
+      "limits": "Absent categories retain unknown cells; unlike currencies, periods and timing kinds are not ranked or summed together."
+    },
+    {
+      "id": "A3",
+      "requirement": "Works with different activities and places",
+      "status": "verified_backend_contract",
+      "evidence": [
+        "src/general.ts",
+        "test/general.test.ts"
+      ],
+      "limits": "Generic 1–3 activity/3–6 place contract, with a different drone/US-city query regression. Fresh extra-place live runs were not authorized."
+    },
+    {
+      "id": "A4",
+      "requirement": "Flag gaps, never guess",
+      "status": "verified",
+      "evidence": [
+        "qualified-batch-report.json",
+        "test/audit.test.ts",
+        "test/decision.test.ts"
+      ],
+      "limits": "Two unsupported local-premises assertions and unsupported field details are withheld. Uncertain source call halted the pool and was not retried."
+    },
+    {
+      "id": "A5",
+      "requirement": "Not checking licence holders",
+      "status": "verified",
+      "evidence": [
+        "src/general.ts"
+      ],
+      "limits": "Activity requirements only; no named person or business licence-holder check."
+    }
+  ],
+  "release_gates": [
+    {
+      "gate": "Current UI, keyboard/mobile/reduced-motion checks",
+      "status": "parent_owned"
+    },
+    {
+      "gate": "Standalone documented startup and release review",
+      "status": "parent_owned"
+    },
+    {
+      "gate": "Repository/deployment/submission",
+      "status": "parent_owned_not_established_here"
+    },
+    {
+      "gate": "Additional live operations under the existing halted pool",
+      "status": "blocked_do_not_retry"
+    }
+  ],
+  "approval_status": "not_submitted_or_approved",
+  "readiness": "core_evidence_qualified_with_explicit_gaps; release gates belong to parent"
+}

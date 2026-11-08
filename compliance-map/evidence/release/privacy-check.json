@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-11-08T13:30:13.724957+00:00",
+  "scope": "All86 prepared public files, including binary assets; exact private-key byte check repeated after final docs/receipts; no Git history",
+  "files": 86,
+  "actual_private_key_matches": 0,
+  "environment_files": [],
+  "private_path_candidates": [],
+  "symlinks": [],
+  "known_pattern_scanner": "Separate staged scan; binary files omitted by scanner and listed here for manual review",
+  "binary_assets": [
+    {
+      "path": "compliance-map/docs/images/landing-desktop.png",
+      "bytes": 82767,
+      "sha256": "fc4da9460b942ef459b9e2170aa5c6f37b8bb0e96ed6a7d4bf8b1354550a4c8f"
+    },
+    {
+      "path": "compliance-map/evidence/release/annual-permit-final.png",
+      "bytes": 44891,
+      "sha256": "5f2f7d2d982eeecb0a99baee8b1b50260cb17a26b542850a7b177fd379df7a41"
+    },
+    {
+      "path": "compliance-map/evidence/release/comparison-desktop.png",
+      "bytes": 85401,
+      "sha256": "7744029d563dbfc6c66367a65b4daafbff7b17c008984cdc5afbba056ba4e664"
+    },
+    {
+      "path": "compliance-map/evidence/release/comparison-mobile-390.png",
+      "bytes": 48009,
+      "sha256": "4223928069f56c52f04299393bf28df08a0dcf485e53341b352f83a22be0b076"
+    },
+    {
+      "path": "compliance-map/evidence/release/landing-desktop.png",
+      "bytes": 82767,
+      "sha256": "fc4da9460b942ef459b9e2170aa5c6f37b8bb0e96ed6a7d4bf8b1354550a4c8f"
+    },
+    {
+      "path": "compliance-map/evidence/release/landing-mobile-390.png",
+      "bytes": 47001,
+      "sha256": "e1da2c2c4520c222821532b6ff7f59350a13efd4f0980d8ed09e6f82a98cf2df"
+    },
+    {
+      "path": "compliance-map/evidence/release/mobile-320.png",
+      "bytes": 34920,
+      "sha256": "33090f95312f38a54cb8a81d339523eccbc5464cff86fd860bb1e445d24fbb68"
+    },
+    {
+      "path": "ui/assets/dmsans.woff2",
+      "bytes": 36980,
+      "sha256": "468d56b6b25b05b70190b6c233d773f6f1770e8579827ce022a57f03fa8002fb"
+    },
+    {
+      "path": "ui/assets/manrope.woff2",
+      "bytes": 24436,
+      "sha256": "8bd97e6bbbc1f602a8f791530eed1064c9a357d5731bbc76e3fc587fb068728f"
+    }
+  ],
+  "known_pattern_findings": [
+    {
+      "file": "compliance-map/test/server.test.ts",
+      "line": 163,
+      "disposition": "Intentional synthetic api_key field used to prove HTTP normalization removes unknown secret-bearing fields. Not a credential."
+    },
+    {
+      "file": "providers/test/pricing.test.ts",
+      "line": 170,
+      "disposition": "Intentional synthetic string used to test decoded credential-echo rejection. Not a credential."
+    }
+  ],
+  "binary_review": "Nine binary assets manually accounted for: seven localhost product screenshots and two licensed local fonts. Exact private-key byte check includes all binary files. Known-pattern scanner does not inspect binary contents."
+}

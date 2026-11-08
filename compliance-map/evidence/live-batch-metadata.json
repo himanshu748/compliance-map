@@ -1,0 +1,76 @@
+{
+  "kind": "compliance-map-live-batch-v2",
+  "provider_jobs": 1,
+  "activity_count": 2,
+  "place_count": 3,
+  "research_run_id": "01a1ba34-7c95-7888-8787-ebfedb8187fb",
+  "status": "COMPLETED",
+  "termination_reason": "planner_done",
+  "reservation_id": "15b5d6c2-a3e9-435c-bc58-7b721dbc636e",
+  "reserved_microusd": 2000000,
+  "provider_invoice_verified": false,
+  "observed_at": "2026-11-08T08:19:10.455Z",
+  "parse_status": "unresolved",
+  "coverage": [
+    {
+      "activity": "cafe",
+      "places": [
+        {
+          "place_id": "city-of-london",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        },
+        {
+          "place_id": "new-york-city",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        },
+        {
+          "place_id": "dublin",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        }
+      ]
+    },
+    {
+      "activity": "software-consultancy",
+      "places": [
+        {
+          "place_id": "city-of-london",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        },
+        {
+          "place_id": "new-york-city",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        },
+        {
+          "place_id": "dublin",
+          "sourced_steps": 0,
+          "known_cost_lines": 0,
+          "unknowns": 9,
+          "total_cost": null,
+          "overall_time_to_approval": null
+        }
+      ]
+    }
+  ],
+  "source_verification": "provider_reported_not_independently_checked",
+  "automatic_retry": false
+}
