@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-08T13:43:02.155956+00:00",
+  "repository": "https://github.com/himanshu748/compliance-map",
+  "anonymous_clone": true,
+  "commit": "54ae89fb38ce7b65bdc213332a38a17e6b95b904",
+  "source_manifest_matches": true,
+  "source_manifest_sha256": "b5f5aeb02031b6f8f64d643253859e6c6f1a45d019dfba4c5acca6ab9622c523",
+  "checks": [
+    {
+      "command": "npm ci",
+      "exit_code": 0,
+      "log": "public-install.txt"
+    },
+    {
+      "command": "npm test",
+      "exit_code": 0,
+      "log": "public-tests.txt"
+    },
+    {
+      "command": "npm run build",
+      "exit_code": 0,
+      "log": "public-build.txt"
+    }
+  ],
+  "passed": true,
+  "provider_operations": 0
+}

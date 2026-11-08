@@ -1,0 +1,489 @@
+
+> compliance-map@0.1.0 test
+> node scripts/run-tests.mjs
+
+TAP version 13
+# Subtest: excerpt matches alone never substitute for interpretation and complete field review
+ok 1 - excerpt matches alone never substitute for interpretation and complete field review
+  ---
+  duration_ms: 31.586333
+  ...
+# Subtest: a supported review cannot certify an absent excerpt or an unused source identity
+ok 2 - a supported review cannot certify an absent excerpt or an unused source identity
+  ---
+  duration_ms: 4.919
+  ...
+# Subtest: reviewed fees ending in sentence punctuation survive without accepting a different numeric amount
+ok 3 - reviewed fees ending in sentence punctuation survive without accepting a different numeric amount
+  ---
+  duration_ms: 3.200792
+  ...
+# Subtest: typed time, unstated calendar units and unsupported renewal intervals are withheld
+ok 4 - typed time, unstated calendar units and unsupported renewal intervals are withheld
+  ---
+  duration_ms: 66.217792
+  ...
+# Subtest: changed bodies, redirects and unrelated activity identities cannot become audited evidence
+ok 5 - changed bodies, redirects and unrelated activity identities cannot become audited evidence
+  ---
+  duration_ms: 12.886041
+  ...
+# Subtest: the shared page excerpt budget preserves hashes and source checks when later quotes are withheld
+ok 6 - the shared page excerpt budget preserves hashes and source checks when later quotes are withheld
+  ---
+  duration_ms: 2.967875
+  ...
+# Subtest: omitted original requirements stay in the audit trail and old reviews cannot claim new observations
+ok 7 - omitted original requirements stay in the audit trail and old reviews cannot claim new observations
+  ---
+  duration_ms: 1.702458
+  ...
+# Subtest: earlier matched annual-fee corroboration stays separate from current source-body observations
+ok 8 - earlier matched annual-fee corroboration stays separate from current source-body observations
+  ---
+  duration_ms: 7.382792
+  ...
+# Subtest: a prior period check cannot certify a different fee, URL or unmatched receipt
+ok 9 - a prior period check cannot certify a different fee, URL or unmatched receipt
+  ---
+  duration_ms: 10.960791
+  ...
+# Subtest: the query fixes three distinct places and scope and uses current corrected source URLs
+ok 10 - the query fixes three distinct places and scope and uses current corrected source URLs
+  ---
+  duration_ms: 4.674958
+  ...
+# Subtest: fees retain scope, period and currency; typical Dublin processing is never a legal opening promise
+ok 11 - fees retain scope, period and currency; typical Dublin processing is never a legal opening promise
+  ---
+  duration_ms: 33.1355
+  ...
+# Subtest: malformed JSON, repeated/missing jurisdictions and invalid typed facts produce unresolved reports without a fixture fallback
+ok 12 - malformed JSON, repeated/missing jurisdictions and invalid typed facts produce unresolved reports without a fixture fallback
+  ---
+  duration_ms: 7.192292
+  ...
+# Subtest: official host, citation, date and currency checks withhold unsupported facts
+ok 13 - official host, citation, date and currency checks withhold unsupported facts
+  ---
+  duration_ms: 20.959
+  ...
+# Subtest: quote budgets count canonical URLs and reject excessive source extraction
+ok 14 - quote budgets count canonical URLs and reject excessive source extraction
+  ---
+  duration_ms: 3.4605
+  ...
+# Subtest: a contradictory fee amount or typical-time quote cannot manufacture a better recommendation
+ok 15 - a contradictory fee amount or typical-time quote cannot manufacture a better recommendation
+  ---
+  duration_ms: 3.029583
+  ...
+# Subtest: typed legal day counts must match a day quantity in the supporting excerpt
+ok 16 - typed legal day counts must match a day quantity in the supporting excerpt
+  ---
+  duration_ms: 2.31275
+  ...
+# Subtest: source corroboration fetches each official page once and only claims exact text matches
+ok 17 - source corroboration fetches each official page once and only claims exact text matches
+  ---
+  duration_ms: 28.350292
+  ...
+# Subtest: failed, redirected and oversized official page reads remain unverified and cannot support a recommendation
+ok 18 - failed, redirected and oversized official page reads remain unverified and cannot support a recommendation
+  ---
+  duration_ms: 13.50025
+  ...
+# Subtest: HTML escapes research text and embedded JSON, with labels, reduced motion and disabled paid controls
+ok 19 - HTML escapes research text and embedded JSON, with labels, reduced motion and disabled paid controls
+  ---
+  duration_ms: 65.576791
+  ...
+# Subtest: the documented offline CLI builds a real usable HTML/JSON bundle and refuses overwrite
+ok 20 - the documented offline CLI builds a real usable HTML/JSON bundle and refuses overwrite
+  ---
+  duration_ms: 1316.840708
+  ...
+# Subtest: known subtotals use exact decimals and retain stable cost refs; they never become complete totals
+ok 21 - known subtotals use exact decimals and retain stable cost refs; they never become complete totals
+  ---
+  duration_ms: 6.415583
+  ...
+# Subtest: currencies and payment periods remain separate; unknown fees are not zero
+ok 22 - currencies and payment periods remain separate; unknown fees are not zero
+  ---
+  duration_ms: 11.611334
+  ...
+# Subtest: conditional, optional and out-of-scope lines cannot inflate required sums, including cost overrides
+ok 23 - conditional, optional and out-of-scope lines cannot inflate required sums, including cost overrides
+  ---
+  duration_ms: 1.37225
+  ...
+# Subtest: a supported claim still needs a dated matched source explicitly included in its semantic review
+ok 24 - a supported claim still needs a dated matched source explicitly included in its semantic review
+  ---
+  duration_ms: 2.13225
+  ...
+# Subtest: reviewed duplicate charge identities deduplicate; conflicting or ambiguous identities withhold the subtotal
+ok 25 - reviewed duplicate charge identities deduplicate; conflicting or ambiguous identities withhold the subtotal
+  ---
+  duration_ms: 2.719834
+  ...
+# Subtest: mutually exclusive alternatives are not summed, even across payment periods
+ok 26 - mutually exclusive alternatives are not summed, even across payment periods
+  ---
+  duration_ms: 0.494375
+  ...
+# Subtest: numeric cost with unknown applicability, unknown period or unsafe amount is withheld and counted
+ok 27 - numeric cost with unknown applicability, unknown period or unsafe amount is withheld and counted
+  ---
+  duration_ms: 0.561084
+  ...
+# Subtest: notice, approval and estimate timings remain separate and are never added or ranked together
+ok 28 - notice, approval and estimate timings remain separate and are never added or ranked together
+  ---
+  duration_ms: 0.353083
+  ...
+# Subtest: only an explicitly comparable reviewed registration milestone can support a narrow preference
+ok 29 - only an explicitly comparable reviewed registration milestone can support a narrow preference
+  ---
+  duration_ms: 1.264625
+  ...
+# Subtest: unverified, conditional and mismatched-unit routes cannot produce a timing preference
+ok 30 - unverified, conditional and mismatched-unit routes cannot produce a timing preference
+  ---
+  duration_ms: 1.340458
+  ...
+# Subtest: all places have the same aligned dimensions and absent coverage stays unknown
+ok 31 - all places have the same aligned dimensions and absent coverage stays unknown
+  ---
+  duration_ms: 0.606333
+  ...
+# Subtest: timing preference names different fees and unknown renewals as trade-offs instead of vetoing the timing fact
+ok 32 - timing preference names different fees and unknown renewals as trade-offs instead of vetoing the timing fact
+  ---
+  duration_ms: 0.818625
+  ...
+# Subtest: zero registration fees versus positive fees support a scoped choice without FX or total setup-cost ranking
+ok 33 - zero registration fees versus positive fees support a scoped choice without FX or total setup-cost ranking
+  ---
+  duration_ms: 0.38075
+  ...
+# Subtest: unknown, conditional and alternative charges never become a zero-registration-fee recommendation
+ok 34 - unknown, conditional and alternative charges never become a zero-registration-fee recommendation
+  ---
+  duration_ms: 0.798791
+  ...
+# Subtest: positive charges in different currencies are not ranked by numeric magnitude
+ok 35 - positive charges in different currencies are not ranked by numeric magnitude
+  ---
+  duration_ms: 0.18325
+  ...
+# Subtest: affirmative reviewed trade-before-registration rule supports due diligence without zero-day opening or inferred prohibitions elsewhere
+ok 36 - affirmative reviewed trade-before-registration rule supports due diligence without zero-day opening or inferred prohibitions elsewhere
+  ---
+  duration_ms: 0.356375
+  ...
+# Subtest: estimates and unquantified before-operation conditions do not become shorter legal waits
+ok 37 - estimates and unquantified before-operation conditions do not become shorter legal waits
+  ---
+  duration_ms: 0.468709
+  ...
+# Subtest: stated priority selects a narrow advantage and notice minimums never become total durations
+ok 38 - stated priority selects a narrow advantage and notice minimums never become total durations
+  ---
+  duration_ms: 0.339125
+  ...
+# Subtest: shipped reviewed evidence preserves annual fee provenance and two scoped decisions
+ok 39 - shipped reviewed evidence preserves annual fee provenance and two scoped decisions
+  ---
+  duration_ms: 244.264333
+  ...
+# Subtest: activity and at least three places are genuine inputs; one query contains both demo activities
+ok 40 - activity and at least three places are genuine inputs; one query contains both demo activities
+  ---
+  duration_ms: 9.543125
+  ...
+# Subtest: one receipt yields two distinct activity comparisons with fees, timing, renewal and filing gaps aligned
+ok 41 - one receipt yields two distinct activity comparisons with fees, timing, renewal and filing gaps aligned
+  ---
+  duration_ms: 39.683541
+  ...
+# Subtest: missing activities, spoofed official hosts and mismatched day counts never become complete results
+ok 42 - missing activities, spoofed official hosts and mismatched day counts never become complete results
+  ---
+  duration_ms: 6.802125
+  ...
+# Subtest: long bounded requirements survive while quoted exports respect a shared per-page budget
+ok 43 - long bounded requirements survive while quoted exports respect a shared per-page budget
+  ---
+  duration_ms: 43.739084
+  ...
+# Subtest: script JSON preserves exact exported data while preventing script termination
+ok 44 - script JSON preserves exact exported data while preventing script termination
+  ---
+  duration_ms: 12.164833
+  ...
+# Subtest: v2 view preserves both activities, raw JSON, source links and deliberately missing excerpts
+ok 45 - v2 view preserves both activities, raw JSON, source links and deliberately missing excerpts
+  ---
+  duration_ms: 170.85525
+  ...
+# Subtest: source controls only link to supported public official hosts
+ok 46 - source controls only link to supported public official hosts
+  ---
+  duration_ms: 0.523208
+  ...
+# Subtest: standalone recorded HTTP serves normalized evidence, local fonts, health and exact CSP hashes
+ok 47 - standalone recorded HTTP serves normalized evidence, local fonts, health and exact CSP hashes
+  ---
+  duration_ms: 366.4895
+  ...
+# Subtest: hostile hosts/origins, malformed/oversized bodies and live-off requests never load controls or call Research
+ok 48 - hostile hosts/origins, malformed/oversized bodies and live-off requests never load controls or call Research
+  ---
+  duration_ms: 97.508958
+  ...
+# Subtest: invalid recorded overrides, identity mismatches and source URLs fail closed instead of showing fixture facts
+ok 49 - invalid recorded overrides, identity mismatches and source URLs fail closed instead of showing fixture facts
+  ---
+  duration_ms: 132.970708
+  ...
+# Subtest: a present invalid qualified artifact never falls back to an older candidate
+ok 50 - a present invalid qualified artifact never falls back to an older candidate
+  ---
+  duration_ms: 44.81725
+  ...
+# Subtest: qualified recorded evidence retains review metadata and refuses unsupported reviewed labels
+ok 51 - qualified recorded evidence retains review metadata and refuses unsupported reviewed labels
+  ---
+  duration_ms: 56.786625
+  ...
+# Subtest: one isolated live lifecycle persists accepted receipt privately and serves only its ephemeral report
+ok 52 - one isolated live lifecycle persists accepted receipt privately and serves only its ephemeral report
+  ---
+  duration_ms: 95.390708
+  ...
+# Subtest: provider failure is sanitized, never repeats or substitutes a recorded report
+ok 53 - provider failure is sanitized, never repeats or substitutes a recorded report
+  ---
+  duration_ms: 53.414916
+  ...
+# Subtest: client disconnect aborts the same Research signal, retains its receipt and releases local busy state
+ok 54 - client disconnect aborts the same Research signal, retains its receipt and releases local busy state
+  ---
+  duration_ms: 53.995459
+  ...
+# Subtest: CLI listens independently on an ephemeral loopback port with live disabled
+ok 55 - CLI listens independently on an ephemeral loopback port with live disabled
+  ---
+  duration_ms: 733.863708
+  ...
+# Subtest: USD decimal conversion never rounds cost down
+ok 56 - USD decimal conversion never rounds cost down
+  ---
+  duration_ms: 8.685292
+  ...
+# Subtest: fresh price observation requires the exact wallet meter and sufficient existing funds
+ok 57 - fresh price observation requires the exact wallet meter and sufficient existing funds
+  ---
+  duration_ms: 53.713666
+  ...
+# Subtest: missing, duplicate, mismatched and increased pricing fail closed
+ok 58 - missing, duplicate, mismatched and increased pricing fail closed
+  ---
+  duration_ms: 12.42625
+  ...
+# Subtest: provider request blocks credential-bearing and external origins before sending the key
+ok 59 - provider request blocks credential-bearing and external origins before sending the key
+  ---
+  duration_ms: 0.759917
+  ...
+# Subtest: HTTP and transport errors withhold raw bodies and do not retry
+ok 60 - HTTP and transport errors withhold raw bodies and do not retry
+  ---
+  duration_ms: 1.151125
+  ...
+# Subtest: pre-dispatch cancellation and byte limits are enforced
+ok 61 - pre-dispatch cancellation and byte limits are enforced
+  ---
+  duration_ms: 0.671458
+  ...
+# Subtest: decoded Unicode credential echoes are withheld and bounds must be finite integers
+ok 62 - decoded Unicode credential echoes are withheld and bounds must be finite integers
+  ---
+  duration_ms: 34.940958
+  ...
+# Subtest: one completed research run retains full reservation and partial synthesis warning
+ok 63 - one completed research run retains full reservation and partial synthesis warning
+  ---
+  duration_ms: 260.509542
+  ...
+# Subtest: lost accepted run ID halts shared pool and never repeats POST
+ok 64 - lost accepted run ID halts shared pool and never repeats POST
+  ---
+  duration_ms: 48.059792
+  ...
+# Subtest: explicit pre-run rejection retains reservation without claiming an uncertain live job
+ok 65 - explicit pre-run rejection retains reservation without claiming an uncertain live job
+  ---
+  duration_ms: 118.300625
+  ...
+# Subtest: deadline cancels known run and verifies terminal state
+ok 66 - deadline cancels known run and verifies terminal state
+  ---
+  duration_ms: 136.721125
+  ...
+# Subtest: unconfirmed cancellation blocks subsequent work
+ok 67 - unconfirmed cancellation blocks subsequent work
+  ---
+  duration_ms: 132.876791
+  ...
+# Subtest: explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+ok 68 - explicit2→4 Set migration retains IDs, ceiling, key identity, all entries and prior recovery audit
+  ---
+  duration_ms: 688.682875
+  ...
+# Subtest: interruption after each of the three target writes stays fenced and explicitly resumes
+ok 69 - interruption after each of the three target writes stays fenced and explicitly resumes
+  ---
+  duration_ms: 1008.225083
+  ...
+# Subtest: unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+ok 70 - unrelated grant changes, wrong acknowledgements and active operations cannot authorize migration
+  ---
+  duration_ms: 164.607375
+  ...
+# Subtest: a prepared transaction refuses unexpected target edits without overwriting them
+ok 71 - a prepared transaction refuses unexpected target edits without overwriting them
+  ---
+  duration_ms: 173.280292
+  ...
+# Subtest: commit never steals a stale process lock or accepts another transaction ID
+ok 72 - commit never steals a stale process lock or accepts another transaction ID
+  ---
+  duration_ms: 127.328458
+  ...
+# Subtest: normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+ok 73 - normal reads and reservations never initialize missing state; explicit initialization cannot overwrite
+  ---
+  duration_ms: 119.547625
+  ...
+# Subtest: transports read immutable bounds from the bound grant rather than caller-supplied caps
+ok 74 - transports read immutable bounds from the bound grant rather than caller-supplied caps
+  ---
+  duration_ms: 6.788
+  ...
+# Subtest: a persistent grant binding prevents reinitialization after ledger loss
+ok 75 - a persistent grant binding prevents reinitialization after ledger loss
+  ---
+  duration_ms: 54.381
+  ...
+# Subtest: separate instances share one aggregate allowance across bounties without refunds
+ok 76 - separate instances share one aggregate allowance across bounties without refunds
+  ---
+  duration_ms: 128.846041
+  ...
+# Subtest: independent Node processes reserve against the same filesystem lock and ledger
+ok 77 - independent Node processes reserve against the same filesystem lock and ledger
+  ---
+  duration_ms: 776.40975
+  ...
+# Subtest: zero-priced operations still consume a bounded endpoint count
+ok 78 - zero-priced operations still consume a bounded endpoint count
+  ---
+  duration_ms: 101.157167
+  ...
+# Subtest: a stricter endpoint concurrency limit applies inside a larger aggregate pool
+ok 79 - a stricter endpoint concurrency limit applies inside a larger aggregate pool
+  ---
+  duration_ms: 38.329833
+  ...
+# Subtest: concurrent reservations are serialized and cannot overrun the shared concurrency bound
+ok 80 - concurrent reservations are serialized and cannot overrun the shared concurrency bound
+  ---
+  duration_ms: 71.678875
+  ...
+# Subtest: duplicate request identities cannot launch a second paid attempt, even after terminal failure
+ok 81 - duplicate request identities cannot launch a second paid attempt, even after terminal failure
+  ---
+  duration_ms: 59.07925
+  ...
+# Subtest: known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+ok 82 - known terminal cancellation retains its full reservation; uncertain termination halts the entire pool
+  ---
+  duration_ms: 103.915584
+  ...
+# Subtest: cancelled signals reject before spending a reservation
+ok 83 - cancelled signals reject before spending a reservation
+  ---
+  duration_ms: 25.307959
+  ...
+# Subtest: missing or excessive terminal accounting blocks later work without releasing ceilings
+ok 84 - missing or excessive terminal accounting blocks later work without releasing ceilings
+  ---
+  duration_ms: 151.543541
+  ...
+# Subtest: stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+ok 85 - stale, future, mismatched and increased pricing rejects before a ledger write; a discount does not shrink reservations
+  ---
+  duration_ms: 53.242875
+  ...
+# Subtest: grant identity, budget, key identity and endpoint rules cannot be silently substituted
+ok 86 - grant identity, budget, key identity and endpoint rules cannot be silently substituted
+  ---
+  duration_ms: 37.102667
+  ...
+# Subtest: corrupt totals and stale locks fail closed and are not automatically repaired
+ok 87 - corrupt totals and stale locks fail closed and are not automatically repaired
+  ---
+  duration_ms: 39.488708
+  ...
+# Subtest: credentials and connection URLs cannot be stored as provider identifiers
+ok 88 - credentials and connection URLs cannot be stored as provider identifiers
+  ---
+  duration_ms: 34.760916
+  ...
+# Subtest: runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+ok 89 - runtime controls default off and require a private grant, matching ledger and matching owner-only key file
+  ---
+  duration_ms: 39.122833
+  ...
+# Subtest: malformed, overflowing and expired grants never authorize live work
+ok 90 - malformed, overflowing and expired grants never authorize live work
+  ---
+  duration_ms: 1.295
+  ...
+# Subtest: operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+ok 91 - operator CLI reports safe missing-grant failure rather than initializing state or reading a key
+  ---
+  duration_ms: 231.251167
+  ...
+# Subtest: explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+ok 92 - explicit reviewed fixed Fetch recovery retains every allowance/counter and appends a bound audit
+  ---
+  duration_ms: 196.64325
+  ...
+# Subtest: recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+ok 93 - recovery rejects mismatched identities, unsupported response proofs and uncertain non-Fetch jobs
+  ---
+  duration_ms: 189.939542
+  ...
+# Subtest: one recovered Fetch cannot unhalt another uncertain operation
+ok 94 - one recovered Fetch cannot unhalt another uncertain operation
+  ---
+  duration_ms: 301.659208
+  ...
+# Subtest: one recovered Fetch cannot clear a separate missing-accounting halt
+ok 95 - one recovered Fetch cannot clear a separate missing-accounting halt
+  ---
+  duration_ms: 181.428334
+  ...
+1..95
+# tests 95
+# suites 0
+# pass 95
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 3444.070416

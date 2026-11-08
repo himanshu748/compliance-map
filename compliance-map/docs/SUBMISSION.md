@@ -1,6 +1,6 @@
 # Submission and promotion copy
 
-Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. These are finished drafts, not receipts of publication or submission. The proposed public repository is `https://github.com/himanshu748/compliance-map`; it has not yet been created or verified at this checkpoint. Confirm the published destination before using its address in a form or post.
+Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. The [public repository](https://github.com/himanshu748/compliance-map) is published and its anonymous clone passes the setup, 95 tests and build. The [LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/) is published with the TinyFish company tag verified. The copy below records that announcement and the remaining Discord draft; it is not a bounty-submission receipt.
 
 ## Build name
 
@@ -40,9 +40,9 @@ The source audit fetched 35 pages. Its 36th request returned a response that the
 
 Run the standalone build with `npm ci` and `npm start`, then open `http://127.0.0.1:4390`. Review both activity tabs, expand an official source and its checked date, inspect the scoped recommendation and export JSON. Follow [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the requirement-to-evidence map and [DEMO.md](DEMO.md) for a short walkthrough.
 
-## LinkedIn draft
+## Published LinkedIn announcement
 
-Select the actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/) when posting; plain `@TinyFish` text alone may not create the required tag. The repository address below is proposed and must be verified before publication.
+[Published post](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/). The actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/) was selected in the composer and verified as a link in the published post.
 
 ```text
 I built Compliance Map for the TinyFish Compliance Map bounty.
@@ -60,7 +60,7 @@ Built with @TinyFish.
 
 ## Discord `#showcase` draft
 
-The repository address is proposed and must be verified before posting. Discord sign-in is currently unavailable, so this required share is blocked. No message has been sent.
+The repository is public and verified. Discord sign-in is currently unavailable, so this required share is blocked. No Discord message has been sent.
 
 ```text
 Compliance Map — my build for the Compliance Map bounty.
@@ -74,6 +74,6 @@ Code, local demo and evidence guide: https://github.com/himanshu748/compliance-m
 
 ## Completion boundaries
 
-The judge-facing working link, required LinkedIn post and required Discord share are separate deliverables. Technical package verification does not complete promotion. Saved copy does not establish a post, a submitted entry or approval. No post or submission has been made by preparing this document.
+The judge-facing working link and required LinkedIn post are published. The required Discord share remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
 
 An optional visual demo can accompany the entry. The checked global rules and specific brief do not require a universal narrated video, and this packet makes no claim that one has been recorded.

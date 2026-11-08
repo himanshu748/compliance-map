@@ -8,9 +8,11 @@ The included demonstration follows a small café and a home-based software consu
 
 ## Run it locally
 
-Use **Node.js 22 or newer**. Run these commands from the standalone repository root:
+Use **Node.js 22 or newer** and Git for the clone command. Clone the public repository, then install and run:
 
 ```sh
+git clone https://github.com/himanshu748/compliance-map.git
+cd compliance-map
 npm ci
 npm start
 ```
@@ -86,7 +88,7 @@ An operator can select a different reviewed artifact with an absolute `COMPLIANC
 
 ## Verification
 
-The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests and in-app browser review.
+The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests, in-app browser review and successful anonymous public-clone verification. The [published LinkedIn announcement](https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/) explains the build and links its code.
 
 ## Development checks
 

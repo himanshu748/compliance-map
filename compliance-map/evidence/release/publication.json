@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-11-08T13:46:37.792023+00:00",
+  "repository": {
+    "url": "https://github.com/himanshu748/compliance-map",
+    "visibility": "public",
+    "default_branch": "main",
+    "verified_commit": "54ae89fb38ce7b65bdc213332a38a17e6b95b904",
+    "anonymous_clone": true,
+    "source_manifest_matches": true,
+    "tests_passed": 95,
+    "build_passed": true,
+    "receipt": "public-repository-verification.json"
+  },
+  "linkedin": {
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/",
+    "status": "published_and_read_back",
+    "tinyfish_company_mention_verified": true,
+    "receipt": "linkedin-publication.json"
+  },
+  "discord": {
+    "shared": false,
+    "blocker": "Owner sign-in unavailable"
+  },
+  "bounty": {
+    "claimed": false,
+    "submitted": false,
+    "approved": false
+  },
+  "daily_automation": "PAUSED"
+}
