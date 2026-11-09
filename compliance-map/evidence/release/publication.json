@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T08:09:03.456712+00:00",
+  "checked_at": "2026-11-09T08:28:48.294058+00:00",
   "repository": {
     "url": "https://github.com/himanshu748/compliance-map",
     "visibility": "public",
@@ -21,20 +21,26 @@
     "replacement_receipt": "linkedin-video-publication.json"
   },
   "discord": {
-    "shared": false,
-    "blocker": "Owner sign-in unavailable"
+    "shared": true,
+    "post_url": "https://discord.com/channels/1200506685236711554/1569266115933110272",
+    "receipt": "discord-publication.json",
+    "status": "published_and_read_back"
   },
   "bounty": {
-    "claimed": false,
+    "claimed": true,
     "submitted": false,
-    "approved": false
+    "approved": false,
+    "claimed_date": "2026-11-09",
+    "readiness": "READY_FOR_SUBMISSION",
+    "pre_submission_receipt": "pre-submission-check.json",
+    "draft_receipt": "submission-draft.json"
   },
-  "daily_automation": "PAUSED",
+  "daily_automation": "ACTIVE",
   "video": {
     "compliance_brief": "Requires demonstrations on at least two activities; no explicit video-file requirement",
     "global_rulebook": "No explicit universal video-file requirement",
-    "form_observed": "Existing Site to MCP technical submission form labels media optional, up to5 files/25MB each",
-    "compliance_map_final_form": "Not inspected; bounty remains unclaimed",
+    "form_observed": "Actual Compliance Map form checked on9 November; media optional, up to5 files/25MB each",
+    "compliance_map_final_form": "Inspected and prepared on 9 November: required build, LinkedIn and X URLs; notes up to2000 characters; optional media up to5 files/25MB each. Claimed, not submitted.",
     "kind": "Edited app walkthrough from actual browser screenshots, not a continuous screen recording",
     "duration_seconds": 96,
     "path": "compliance-map/docs/media/compliance-map-demo.mp4",
@@ -47,5 +53,6 @@
     "status": "published_and_read_back",
     "post_url": "https://x.com/jhahimanshu653/status/2119702926319091816",
     "receipt": "x-publication.json"
-  }
+  },
+  "daily_automation_receipt": "daily-dispatch.json"
 }

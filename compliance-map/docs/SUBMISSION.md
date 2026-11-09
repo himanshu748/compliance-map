@@ -1,6 +1,6 @@
 # Submission and promotion copy
 
-Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. The [public repository](https://github.com/himanshu748/compliance-map) is published and its anonymous clone passes the setup, 95 tests and build. The earlier LinkedIn announcement was removed at the owner’s request. The replacement LinkedIn and Discord copy below is draft-only; it is not a bounty-submission receipt.
+Prepared for the Compliance Map bounty from the authenticated brief and rulebook checked on 8 November 2026. The [public repository](https://github.com/himanshu748/compliance-map) is published and its anonymous clone passes the setup, 95 tests and build. The earlier LinkedIn announcement was removed at the owner’s request. The replacement LinkedIn, X and Discord posts are published and read back. The bounty is claimed, and its actual submission form is prepared with all required links and the video selected. Final submission has not been performed.
 
 ## Build name
 
@@ -79,22 +79,27 @@ https://github.com/himanshu748/compliance-map
 
 The rewrite leads with the reader’s decision, shows one concrete correction from the source review, and explains what the reader can inspect. Test counts and the 31/2 review inventory remain in repository evidence.
 
-## Discord `#showcase` draft
+## Published Discord `#showcase` post
 
-The repository is public and verified. Discord sign-in is currently unavailable, so this required share is blocked. No Discord message has been sent.
+The required [TinyFish showcase post](https://discord.com/channels/1200506685236711554/1569266115933110272) was published with App/API tags and the video attachment on 9 November 2026. [Publication receipt](../evidence/release/discord-publication.json).
 
 ```text
-Compliance Map — my build for the Compliance Map bounty.
+Opening a café in the City of London, NYC or Dublin means comparing more than registration fees.
 
-Compare a business activity across at least three places, with official sources, checked dates and scoped recommendations. The recorded demo covers a café and a home-based software consultancy in the City of London, NYC and Dublin.
+I built Compliance Map to line up the steps, scoped costs, renewals and ongoing duties, with the official source and checked date behind each requirement. The demo also compares a home-based software consultancy.
 
-One genuine TinyResearch batch supplied the investigation. A bounded TinyFish Fetch audit and local field review retained 31 requirements and withheld 2 unsupported claims. Conditional fees and alternative routes stay separate; incomplete totals and opening times stay unknown.
+TinyResearch investigated the rules. TinyFish Fetch retrieved the official pages for review. The app uses those saved 8 November results, so browsing and exporting start no new research.
 
-Code, local demo and evidence guide: https://github.com/himanshu748/compliance-map
+The review caught a $50 penalty counted as a registration fee. It is corrected. Where a full setup cost or opening time is not established, the app leaves it unknown.
+
+Code + local demo: https://github.com/himanshu748/compliance-map
+96-second video: https://x.com/jhahimanshu653/status/2119702926319091816
+
+Built for the Compliance Map bounty. I would like feedback on whether the comparison makes the next steps clear.
 ```
 
 ## Completion boundaries
 
-The judge-facing repository is public. The earlier LinkedIn post is removed; its replacement and the X post are published with the video and verified TinyFish tags. Required Discord sharing remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
+The judge-facing repository is public. The earlier LinkedIn post is removed; its replacement and the X post are published with the video and verified TinyFish tags. The required Discord share is published. Compliance Map is claimed and ready for submission; its form is prepared, but no final submission or approval has occurred. The daily queue allows at most one ready entry per India calendar day. The [publication receipt](../evidence/release/publication.json) records those boundaries.
 
-The Compliance Map brief requires demonstrations on at least two different activities, without explicitly specifying a video file. The inspected Site to MCP submission form labels media optional; Compliance Map’s own final form has not been inspected. Keep the final requirement unconfirmed until that form is checked. A [96-second edited walkthrough](media/compliance-map-demo.mp4) now shows both activities using actual in-app browser captures of the saved research. It is a silent, captioned video, not a new provider run. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).
+The Compliance Map brief requires demonstrations on at least two activities. Its actual form was inspected on 9 November: repository/build URL, LinkedIn URL and X URL are required; notes allow 2,000 characters; media is optional, up to five files of 25 MB each. The prepared notes use 1,528 characters and include the Discord permalink. The 10.3 MiB MP4 is selected in the form. [Prepared fields](../evidence/release/submission-draft.json) and [readiness review](../evidence/release/pre-submission-check.json). A [96-second edited walkthrough](media/compliance-map-demo.mp4) now shows both activities using actual in-app browser captures of the saved research. It is a silent, captioned video, not a new provider run. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).

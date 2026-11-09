@@ -1,0 +1,28 @@
+{
+  "checked_at": "2026-11-09T08:28:48.294058+00:00",
+  "bounty": "Compliance Map",
+  "state": "prepared_not_submitted",
+  "portal": "https://www.tinybounties.com/crm?view=claims",
+  "submission_url": "https://github.com/himanshu748/compliance-map",
+  "notes": "Compliance Map compares the paperwork for starting the same business in several places, with official sources, checked dates, scoped costs and recommendations.\n\nThe attached 96-second video shows two activities, a small café and a home-based software consultancy, across the City of London, New York City and Dublin. It shows source details, fees, renewals, trade-offs, open questions and JSON export.\n\nTinyResearch Deep performed the genuine 8 November investigation. TinyFish Fetch then retrieved 35 official pages for local field review. The reviewed report retains 31 requirements and withholds 2 unsupported claims. NYC’s annual fee frequency has separately dated corroboration. Complete setup totals and end-to-end approval times remain unknown.\n\nTo test: Node.js 22+, npm ci, npm start, then open http://127.0.0.1:4390. Switch activities, inspect the aligned comparison and sources, read a recommendation and export JSON. The README links the evidence and judge guide.\n\nThe default preview replays those genuine saved results without a key. Preparing another brief does not start research or replace the recorded report. Fresh research requires a separately authorized credential/grant/ledger; the existing pool is exhausted and halted. No live rerun is claimed by this video.\n\nValidation: anonymous-clone installation, 95 tests, TypeScript/build and real in-app browser checks passed. Known limitations are documented in the README.\n\nDiscord showcase: https://discord.com/channels/1200506685236711554/1569266115933110272",
+  "notes_characters": 1528,
+  "notes_limit": 2000,
+  "linkedin_post": "https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/",
+  "x_post": "https://x.com/jhahimanshu653/status/2119702926319091816",
+  "discord_showcase": "https://discord.com/channels/1200506685236711554/1569266115933110272",
+  "media": [
+    {
+      "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+      "bytes": 10809439,
+      "sha256": "28f9d1c60d0dd845b4eb23eaf7b85cdc039c1774e1162a5e70468a9b6eb41fb5"
+    }
+  ],
+  "media_limits": {
+    "optional": true,
+    "max_files": 5,
+    "max_bytes_per_file": 25000000
+  },
+  "required_fields_valid_in_form": true,
+  "video_visible_in_form": true,
+  "final_submit_clicked": false
+}

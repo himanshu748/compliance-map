@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-09T08:25:57.682Z",
+  "post_url": "https://discord.com/channels/1200506685236711554/1569266115933110272",
+  "thread_id": "1569266115933110272",
+  "title": "Compliance Map: compare business paperwork across three places",
+  "body": "Opening a café in the City of London, NYC or Dublin means comparing more than registration fees.\n\nI built Compliance Map to line up the steps, scoped costs, renewals and ongoing duties, with the official source and checked date behind each requirement. The demo also compares a home-based software consultancy.\n\nTinyResearch investigated the rules. TinyFish Fetch retrieved the official pages for review. The app uses those saved 8 November results, so browsing and exporting start no new research.\n\nThe review caught a $50 penalty counted as a registration fee. It is corrected. Where a full setup cost or opening time is not established, the app leaves it unknown.\n\nCode + local demo: https://github.com/himanshu748/compliance-map\n96-second video: https://x.com/jhahimanshu653/status/2119702926319091816\n\nBuilt for the Compliance Map bounty. I would like feedback on whether the comparison makes the next steps clear.",
+  "account": "himanshujha6005",
+  "tags": ["App", "API"],
+  "read_back": true,
+  "attachment": {
+    "iframeElements": 1,
+    "mp4DownloadPresent": true,
+    "videoElements": 0
+  },
+  "video_playback_verified": false,
+  "submitted_bounty": false,
+  "video_readback": {
+    "currentTime": 0,
+    "duration": null,
+    "paused": true,
+    "readyState": 0,
+    "videoHeight": 0,
+    "videoWidth": 0
+  },
+  "channel": "TinyFish #showcase",
+  "server_id": "1200506685236711554",
+  "forum_channel_id": "1554420983539048508",
+  "status": "published_and_read_back",
+  "uploaded_video": {
+    "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+    "sha256": "28f9d1c60d0dd845b4eb23eaf7b85cdc039c1774e1162a5e70468a9b6eb41fb5",
+    "bytes": 10809439,
+    "duration_seconds": 96
+  },
+  "verification_limit": "Discord published the MP4 attachment and exposes its Download control. In-app embedded playback remained unverified. The identical video plays on LinkedIn and X.",
+  "new_provider_operations": 0
+}

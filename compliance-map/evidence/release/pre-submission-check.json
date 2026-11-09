@@ -1,0 +1,55 @@
+{
+  "checked_at": "2026-11-09T08:28:48.294058+00:00",
+  "status": "READY_FOR_SUBMISSION",
+  "reviewer": "Codex",
+  "technical_source_manifest_sha256": "b5f5aeb02031b6f8f64d643253859e6c6f1a45d019dfba4c5acca6ab9622c523",
+  "executable_files_rechecked": 50,
+  "public_source_head_before_documentation_update": "20152d53424c0f9819e50abab41f0272f03eb350",
+  "technical_verification": "Existing 8 November clean-package and anonymous-clone receipts remain applicable because all executable/source hashes match. No new live provider work or technical test rerun is claimed.",
+  "eligibility": {
+    "student_current": true,
+    "checked_date": "2026-11-09",
+    "account_changed": false
+  },
+  "claim": {
+    "status": "claimed",
+    "checked_date": "2026-11-09",
+    "submitted": false
+  },
+  "official_form": {
+    "checked_for": "Compliance Map",
+    "required": ["submission URL", "LinkedIn post URL", "X post URL"],
+    "notes_limit": 2000,
+    "media_optional": true,
+    "max_media_files": 5,
+    "max_media_mb_each": 25,
+    "prepared_field_receipt": "submission-draft.json"
+  },
+  "promotion_receipts": [
+    "linkedin-video-publication.json",
+    "x-publication.json",
+    "discord-publication.json"
+  ],
+  "technical_requirement_mapping": "../../docs/JUDGE_GUIDE.md",
+  "deadline": {
+    "portal_date": "17 November 2026 23:59 America/Los_Angeles",
+    "india_date": "18 November 2026 13:29 Asia/Kolkata"
+  },
+  "rulebook_form_conflict": "The rulebook calls X optional; the actual Compliance Map form requires it. A verified X post is supplied.",
+  "remaining_mandatory_preparation_gates": [],
+  "known_limits": [
+    "Saved live demonstration covers two activities and three places; preparing another brief is not fresh research.",
+    "Complete setup totals, overall approval durations and unresolved premises rules remain unknown.",
+    "Existing shared provider allowance is exhausted/halted; no provider call or automatic retry is authorized.",
+    "Discord in-app attachment playback remained unverified; attachment publication and the matching video playback on LinkedIn/X are verified."
+  ],
+  "bounty_submitted": false,
+  "approved": false,
+  "new_provider_operations": 0,
+  "daily_dispatch": {
+    "status": "ACTIVE",
+    "receipt": "daily-dispatch.json",
+    "next_intended_slot": "2026-11-10T10:00:00+05:30",
+    "recheck_before_submission": true
+  }
+}

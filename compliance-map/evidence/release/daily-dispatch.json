@@ -1,0 +1,13 @@
+{
+  "checked_at": "2026-11-09T08:31:05.664888+00:00",
+  "id": "submit-one-ready-tinyfish-entry-daily",
+  "status": "ACTIVE",
+  "cadence": "Daily at10:00 Asia/Kolkata",
+  "next_intended_slot": "2026-11-10T10:00:00+05:30",
+  "max_submissions_per_india_calendar_day": 1,
+  "catch_up": false,
+  "final_live_gate_recheck_required": true,
+  "submission_stops_before": "2026-11-17T23:59:00-08:00",
+  "new_spending_authorized": false,
+  "preserve_existing_submissions": true
+}

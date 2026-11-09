@@ -90,7 +90,7 @@ An operator can select a different reviewed artifact with an absolute `COMPLIANC
 
 ## Verification
 
-The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests, in-app browser review and successful anonymous public-clone verification. The [submission packet](compliance-map/docs/SUBMISSION.md) links the published LinkedIn and X video posts. The earlier LinkedIn post was removed at the owner’s request; the replacement was published on 9 November 2026.
+The [release checks](compliance-map/docs/VERIFICATION.md) record the clean-package tests, in-app browser review and successful anonymous public-clone verification. The [submission packet](compliance-map/docs/SUBMISSION.md) links the published LinkedIn and X video posts. The earlier LinkedIn post was removed at the owner’s request; the replacement was published on 9 November 2026. The required Discord showcase share is also published. The claimed entry is [ready for submission](compliance-map/evidence/release/pre-submission-check.json), with its actual form prepared; final submission remains pending.
 
 ## Development checks
 
