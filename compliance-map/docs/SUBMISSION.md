@@ -47,13 +47,13 @@ The earlier LinkedIn post was permanently removed at the owner’s request on 8 
 ```text
 Choosing where to open a café takes more than comparing registration fees.
 
-I built Compliance Map to put the paperwork for the same business side by side across the City of London, New York City and Dublin.
+I built Compliance Map to compare the paperwork across the City of London, New York City and Dublin. The video also shows how the requirements change for a home-based software consultancy.
 
-The local demo uses saved TinyResearch results for a café and a home-based software consultancy. You can compare requirements, fees, renewals and opening milestones, then open the government source behind each item.
+You can check fees, renewals and opening milestones, then open the official source behind each item. Where the evidence can't establish a full cost or opening date, the app leaves it unknown.
 
-The source review caught a $50 failure-to-display penalty listed as a registration fee. The reviewed comparison excludes it.
+The source review caught a $50 penalty listed as a registration fee. It's been corrected.
 
-TinyResearch handled the initial investigation. TinyFish Fetch retrieved the official pages, and local review checked their meaning and scope. Where a complete cost or opening date isn't established, the view keeps it unknown.
+TinyResearch investigated the rules, and TinyFish Fetch retrieved the official pages. This walkthrough uses those saved results.
 
 Code and local demo: https://github.com/himanshu748/compliance-map
 
@@ -82,4 +82,4 @@ Code, local demo and evidence guide: https://github.com/himanshu748/compliance-m
 
 The judge-facing repository is public. The earlier LinkedIn post is removed and its replacement has not been posted. Required LinkedIn promotion is incomplete again, and Discord sharing remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
 
-The Compliance Map brief requires demonstrations on at least two different activities, without explicitly specifying a video file. The inspected Site to MCP submission form labels media optional; Compliance Map’s own final form has not been inspected. Keep the final requirement unconfirmed until that form is checked. No demo video has been recorded. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).
+The Compliance Map brief requires demonstrations on at least two different activities, without explicitly specifying a video file. The inspected Site to MCP submission form labels media optional; Compliance Map’s own final form has not been inspected. Keep the final requirement unconfirmed until that form is checked. A [96-second edited walkthrough](media/compliance-map-demo.mp4) now shows both activities using actual in-app browser captures of the saved research. It is a silent, captioned video, not a new provider run. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).

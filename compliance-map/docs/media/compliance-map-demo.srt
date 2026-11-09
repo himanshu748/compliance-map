@@ -1,0 +1,55 @@
+1
+00:00:00,000 --> 00:00:07,000
+Compare the paperwork before you choose a place.
+
+2
+00:00:07,000 --> 00:00:15,000
+Compare the same café across three places.
+
+3
+00:00:15,000 --> 00:00:22,000
+Keep scoped fees separate from the full cost of opening.
+
+4
+00:00:22,000 --> 00:00:30,000
+The source review excluded a $50 penalty from the registration fee.
+
+5
+00:00:30,000 --> 00:00:38,000
+Inspect the official source, its checked date and the retained evidence.
+
+6
+00:00:38,000 --> 00:00:44,000
+The café recommendation covers one registration-fee advantage.
+
+7
+00:00:44,000 --> 00:00:46,000
+Now compare another activity in the same places.
+
+8
+00:00:46,000 --> 00:00:54,000
+Switch to a home-based software consultancy.
+
+9
+00:00:54,000 --> 00:01:02,000
+The next step follows a reviewed rule about the registration sequence.
+
+10
+00:01:02,000 --> 00:01:10,000
+Read the recommendation’s scope and the permissions still to check.
+
+11
+00:01:10,000 --> 00:01:18,000
+Unresolved premises rules and complete setup costs stay visible.
+
+12
+00:01:18,000 --> 00:01:26,000
+Prepare another activity and three places without starting paid research.
+
+13
+00:01:26,000 --> 00:01:31,000
+Export the comparison as JSON, including its sources and unknowns.
+
+14
+00:01:31,000 --> 00:01:36,000
+Run it locally: github.com/himanshu748/compliance-map

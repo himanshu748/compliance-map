@@ -6,6 +6,8 @@ The included demonstration follows a small café and a home-based software consu
 
 ![Compliance Map landing page with an interactive jurisdiction atlas](compliance-map/docs/images/landing-desktop.png)
 
+[Watch the 96-second walkthrough](compliance-map/docs/media/compliance-map-demo.mp4) · [Captions](compliance-map/docs/media/compliance-map-demo.srt)
+
 ## Run it locally
 
 Use **Node.js 22 or newer** and Git for the clone command. Clone the public repository, then install and run:

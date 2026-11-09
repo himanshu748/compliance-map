@@ -91,6 +91,6 @@ The standalone HTTP implementation passed 9 tests covering recorded reports, sou
 | Required TinyFish Discord `#showcase` share                           | Blocked because Discord sign-in is unavailable; no share made                                                  |
 | Bounty submission and approval                                        | Not established by this local build or guide                                                                   |
 
-The technical deadline in the checked rulebook is 17 November 2026 at 23:59 Pacific time, equivalent to 18 November at 13:29 India time. Verify the portal before submitting because submissions are final. The brief requires a demo on two activities without explicitly specifying a video file. Compliance Map’s final form remains uninspected; [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md) records that limit. [DEMO.md](DEMO.md) provides the proposed walkthrough.
+The technical deadline in the checked rulebook is 17 November 2026 at 23:59 Pacific time, equivalent to 18 November at 13:29 India time. Verify the portal before submitting because submissions are final. The brief requires a demo on two activities without explicitly specifying a video file. Compliance Map’s final form remains uninspected; [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md) records that limit. [DEMO.md](DEMO.md) links the delivered 96-second walkthrough and its provenance.
 
 Return to the [standalone README](../../README.md). Promotion and submission drafts are in [SUBMISSION.md](SUBMISSION.md).

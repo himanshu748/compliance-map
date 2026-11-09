@@ -34,3 +34,9 @@ The [privacy review](../evidence/release/privacy-check.json) found no actual pri
 The [publication receipt](../evidence/release/publication.json) records the anonymous-clone verification and the current social state. The original LinkedIn publication readback remains a dated historical receipt; [the removal receipt](../evidence/release/linkedin-removal.json) supersedes its live-post status. The earlier release-validation receipt records the pre-publication checkpoint. Later documentation-only commits preserve the executable/source digest `b5f5aeb02031b6f8f64d643253859e6c6f1a45d019dfba4c5acca6ab9622c523`; no later provider execution is implied.
 
 The [video requirement check](VIDEO_REQUIREMENTS.md) distinguishes the required two-activity demonstration from an explicit video-file requirement. Compliance Map’s final submission form remains uninspected.
+
+## Video — 9 November 2026
+
+The [96-second walkthrough](media/compliance-map-demo.mp4) uses actual in-app browser captures, edited cuts, captions and reconstructed cursor choreography. It shows both recorded activities, source dates, scoped recommendations, unresolved questions, a different prepared brief and a real JSON export. The browser stayed in recorded-only mode; no new provider operation occurred.
+
+The MP4 is H.264/yuv420p, 1920×1080 at 60 fps, 96 seconds and 10.8 MB. It has no audio. Full-file decoding completed without errors; eight decoded thumbnails were inspected for text, cursor placement, captions and legibility. [Receipt](../evidence/release/video-verification.json). The replacement LinkedIn post remains a draft, and the daily submission automation remains paused.

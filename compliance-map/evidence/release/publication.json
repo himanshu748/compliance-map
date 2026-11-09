@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-08T14:07:52.646373+00:00",
+  "checked_at": "2026-11-09T07:39:24.166008+00:00",
   "repository": {
     "url": "https://github.com/himanshu748/compliance-map",
     "visibility": "public",
@@ -33,6 +33,12 @@
     "global_rulebook": "No explicit universal video-file requirement",
     "form_observed": "Existing Site to MCP technical submission form labels media optional, up to5 files/25MB each",
     "compliance_map_final_form": "Not inspected; bounty remains unclaimed",
-    "recorded_video_exists": false
+    "kind": "Edited app walkthrough from actual browser screenshots, not a continuous screen recording",
+    "duration_seconds": 96,
+    "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+    "narration": "none",
+    "new_provider_operations": 0,
+    "demo_video_exists": true,
+    "continuous_screen_recording": false
   }
 }
