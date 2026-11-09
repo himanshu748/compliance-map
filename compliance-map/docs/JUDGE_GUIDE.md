@@ -80,16 +80,17 @@ npm run build
 
 The standalone HTTP implementation passed 9 tests covering recorded reports, source/identity validation, CSP, fonts, hostile hosts and origins, bounded input, live-off behavior, receipt persistence and disconnect cancellation. Provider lifecycle tests use an isolated offline transport. They do not establish a new live Research execution. The final standalone package passed 95 tests, TypeScript, build and formatting. The real in-app browser journey also passed; see [VERIFICATION.md](VERIFICATION.md) for dated receipts and limits.
 
-| Gate                                                                  | Status at this documentation checkpoint                                                                        |
-| --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
-| Recorded Research and reviewed comparison                             | Available locally; exact evidence linked above                                                                 |
-| Complete legal coverage, total setup cost and guaranteed opening time | Not established                                                                                                |
-| Fresh arbitrary-input live Research in this preview                   | Disabled by default; no further paid allowance remains in the existing pool                                    |
-| Standalone package verification                                       | Verified: 95 standalone tests, TypeScript/build/format and in-app browser checks; see VERIFICATION.md          |
-| Public repository                                                     | Published: [GitHub](https://github.com/himanshu748/compliance-map); anonymous clone, 95 tests and build passed |
-| Required LinkedIn post tagging TinyFish                               | Earlier post removed at owner request; replacement drafted, not posted                                         |
-| Required TinyFish Discord `#showcase` share                           | Blocked because Discord sign-in is unavailable; no share made                                                  |
-| Bounty submission and approval                                        | Not established by this local build or guide                                                                   |
+| Gate                                                                  | Status at this documentation checkpoint                                                                                                                 |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Recorded Research and reviewed comparison                             | Available locally; exact evidence linked above                                                                                                          |
+| Complete legal coverage, total setup cost and guaranteed opening time | Not established                                                                                                                                         |
+| Fresh arbitrary-input live Research in this preview                   | Disabled by default; no further paid allowance remains in the existing pool                                                                             |
+| Standalone package verification                                       | Verified: 95 standalone tests, TypeScript/build/format and in-app browser checks; see VERIFICATION.md                                                   |
+| Public repository                                                     | Published: [GitHub](https://github.com/himanshu748/compliance-map); anonymous clone, 95 tests and build passed                                          |
+| Required LinkedIn post tagging TinyFish                               | Published with video on 9 November: [LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/); correct company tag verified |
+| X video post                                                          | Published on 9 November: [X](https://x.com/jhahimanshu653/status/2119702926319091816); official TinyFish tag verified                                   |
+| Required TinyFish Discord `#showcase` share                           | Blocked because Discord sign-in is unavailable; no share made                                                                                           |
+| Bounty submission and approval                                        | Not established by this local build or guide                                                                                                            |
 
 The technical deadline in the checked rulebook is 17 November 2026 at 23:59 Pacific time, equivalent to 18 November at 13:29 India time. Verify the portal before submitting because submissions are final. The brief requires a demo on two activities without explicitly specifying a video file. Compliance Map’s final form remains uninspected; [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md) records that limit. [DEMO.md](DEMO.md) links the delivered 96-second walkthrough and its provenance.
 

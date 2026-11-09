@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T07:39:24.166008+00:00",
+  "checked_at": "2026-11-09T08:09:03.456712+00:00",
   "repository": {
     "url": "https://github.com/himanshu748/compliance-map",
     "visibility": "public",
@@ -13,10 +13,12 @@
   },
   "linkedin": {
     "previous_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/",
-    "status": "removed_at_owner_request",
+    "status": "replacement_video_post_published_and_read_back",
     "removal_receipt": "linkedin-removal.json",
-    "replacement_status": "draft_only_not_posted",
-    "prior_publication_receipt": "linkedin-publication.json"
+    "replacement_status": "published_and_read_back",
+    "prior_publication_receipt": "linkedin-publication.json",
+    "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/",
+    "replacement_receipt": "linkedin-video-publication.json"
   },
   "discord": {
     "shared": false,
@@ -40,5 +42,10 @@
     "new_provider_operations": 0,
     "demo_video_exists": true,
     "continuous_screen_recording": false
+  },
+  "x": {
+    "status": "published_and_read_back",
+    "post_url": "https://x.com/jhahimanshu653/status/2119702926319091816",
+    "receipt": "x-publication.json"
   }
 }

@@ -40,9 +40,9 @@ The source audit fetched 35 pages. Its 36th request returned a response that the
 
 Run the standalone build with `npm ci` and `npm start`, then open `http://127.0.0.1:4390`. Review both activity tabs, expand an official source and its checked date, inspect the scoped recommendation and export JSON. Follow [JUDGE_GUIDE.md](JUDGE_GUIDE.md) for the requirement-to-evidence map and [DEMO.md](DEMO.md) for a short walkthrough.
 
-## Replacement LinkedIn draft
+## Published LinkedIn video post
 
-The earlier LinkedIn post was permanently removed at the owner’s request on 8 November 2026, with LinkedIn’s “Post removed” confirmation read back. This replacement has not been posted. Select the actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/) when posting.
+The earlier LinkedIn post was permanently removed at the owner’s request on 8 November 2026, with LinkedIn’s “Post removed” confirmation read back. The owner approved the replacement and X copy after reviewing them. Both were published with the 96-second video on 9 November 2026. The [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/) includes the actual [TinyFish company mention](https://www.linkedin.com/company/tinyfish-ai/); [the receipt](../evidence/release/linkedin-video-publication.json) records published-text, spacing and video-playback checks.
 
 ```text
 Choosing where to open a café takes more than comparing registration fees.
@@ -58,6 +58,21 @@ TinyResearch investigated the rules, and TinyFish Fetch retrieved the official p
 Code and local demo: https://github.com/himanshu748/compliance-map
 
 Built with @TinyFish.
+```
+
+## Published X video post
+
+The [X post](https://x.com/jhahimanshu653/status/2119702926319091816) tags the official TinyFish account and includes the same video. [Publication receipt](../evidence/release/x-publication.json).
+
+```text
+I built Compliance Map to compare business paperwork in the City of London, NYC and Dublin.
+
+Official sources, fees, renewals and clear unknowns.
+
+Demo uses saved TinyResearch + TinyFish Fetch results.
+
+@Tiny_Fish
+https://github.com/himanshu748/compliance-map
 ```
 
 ### What changed
@@ -80,6 +95,6 @@ Code, local demo and evidence guide: https://github.com/himanshu748/compliance-m
 
 ## Completion boundaries
 
-The judge-facing repository is public. The earlier LinkedIn post is removed and its replacement has not been posted. Required LinkedIn promotion is incomplete again, and Discord sharing remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
+The judge-facing repository is public. The earlier LinkedIn post is removed; its replacement and the X post are published with the video and verified TinyFish tags. Required Discord sharing remains blocked by sign-in. No bounty claim, submission or approval has been made; the daily submission automation remains paused. The [publication receipt](../evidence/release/publication.json) records those boundaries.
 
 The Compliance Map brief requires demonstrations on at least two different activities, without explicitly specifying a video file. The inspected Site to MCP submission form labels media optional; Compliance Map’s own final form has not been inspected. Keep the final requirement unconfirmed until that form is checked. A [96-second edited walkthrough](media/compliance-map-demo.mp4) now shows both activities using actual in-app browser captures of the saved research. It is a silent, captioned video, not a new provider run. See [VIDEO_REQUIREMENTS.md](VIDEO_REQUIREMENTS.md).

@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-11-09T08:09:03.456712+00:00",
+  "status": "published_and_read_back",
+  "repository": "https://github.com/himanshu748/compliance-map",
+  "audience": "public",
+  "uploaded_video": {
+    "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+    "sha256": "28f9d1c60d0dd845b4eb23eaf7b85cdc039c1774e1162a5e70468a9b6eb41fb5",
+    "duration_seconds": 96,
+    "kind": "Edited walkthrough from actual browser screenshots using saved 8 November research",
+    "narration": "none",
+    "captions": "burned into video"
+  },
+  "formatting": {
+    "em_dashes": false,
+    "paragraph_spacing_verified_in_published_view": true
+  },
+  "new_provider_operations": 0,
+  "bounty_submission": false,
+  "discord_shared": false,
+  "post_url": "https://x.com/jhahimanshu653/status/2119702926319091816",
+  "account": "jhahimanshu653",
+  "approved_copy": "I built Compliance Map to compare business paperwork in the City of London, NYC and Dublin.\n\nOfficial sources, fees, renewals and clear unknowns.\n\nDemo uses saved TinyResearch + TinyFish Fetch results.\n\n@Tiny_Fish\nhttps://github.com/himanshu748/compliance-map",
+  "company_mention": {
+    "text": "@Tiny_Fish",
+    "url": "https://x.com/Tiny_Fish",
+    "verified_in_published_dom": true
+  },
+  "success_message": "posted",
+  "published_video_readback": {
+    "duration_seconds": 96,
+    "current_time_seconds": 39.9704,
+    "paused": false,
+    "ready_state": 4,
+    "dimensions": [1280, 720]
+  }
+}

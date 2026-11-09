@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-11-09T08:09:03.456712+00:00",
+  "status": "published_and_read_back",
+  "repository": "https://github.com/himanshu748/compliance-map",
+  "audience": "public",
+  "uploaded_video": {
+    "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+    "sha256": "28f9d1c60d0dd845b4eb23eaf7b85cdc039c1774e1162a5e70468a9b6eb41fb5",
+    "duration_seconds": 96,
+    "kind": "Edited walkthrough from actual browser screenshots using saved 8 November research",
+    "narration": "none",
+    "captions": "burned into video"
+  },
+  "formatting": {
+    "em_dashes": false,
+    "paragraph_spacing_verified_in_published_view": true
+  },
+  "new_provider_operations": 0,
+  "bounty_submission": false,
+  "discord_shared": false,
+  "post_url": "https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/",
+  "account": "himanshu748",
+  "approved_copy": "Choosing where to open a café takes more than comparing registration fees.\n\nI built Compliance Map to compare the paperwork across the City of London, New York City and Dublin. The video also shows how the requirements change for a home-based software consultancy.\n\nYou can check fees, renewals and opening milestones, then open the official source behind each item. Where the evidence can't establish a full cost or opening date, the app leaves it unknown.\n\nThe source review caught a $50 penalty listed as a registration fee. It's been corrected.\n\nTinyResearch investigated the rules, and TinyFish Fetch retrieved the official pages. This walkthrough uses those saved results.\n\nCode and local demo: https://github.com/himanshu748/compliance-map\n\nBuilt with @TinyFish.",
+  "company_mention": {
+    "text": "TinyFish",
+    "url": "https://www.linkedin.com/company/tinyfish-ai/",
+    "verified_in_published_dom": true
+  },
+  "success_message": "Post successful. View post",
+  "published_video_readback": {
+    "duration_seconds": 96,
+    "current_time_seconds": 17.412,
+    "paused": false,
+    "ready_state": 4,
+    "dimensions": [1280, 720]
+  },
+  "supersedes_removed_post": "https://www.linkedin.com/feed/update/urn:li:activity:7525191322413158400/",
+  "historical_removal_receipt": "linkedin-removal.json"
+}
