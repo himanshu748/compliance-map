@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T08:28:48.294058+00:00",
+  "checked_at": "2026-11-09T08:41:29.441Z",
   "repository": {
     "url": "https://github.com/himanshu748/compliance-map",
     "visibility": "public",
@@ -28,19 +28,22 @@
   },
   "bounty": {
     "claimed": true,
-    "submitted": false,
+    "submitted": true,
     "approved": false,
     "claimed_date": "2026-11-09",
-    "readiness": "READY_FOR_SUBMISSION",
+    "readiness": "SUBMITTED_IN_REVIEW_QUEUE",
     "pre_submission_receipt": "pre-submission-check.json",
-    "draft_receipt": "submission-draft.json"
+    "draft_receipt": "submission-draft.json",
+    "submission_receipt": "submission-confirmation.json",
+    "eligible_for_dispatch": false,
+    "submission_confirmed_at": "2026-11-09T08:41:29.441Z"
   },
   "daily_automation": "ACTIVE",
   "video": {
     "compliance_brief": "Requires demonstrations on at least two activities; no explicit video-file requirement",
     "global_rulebook": "No explicit universal video-file requirement",
     "form_observed": "Actual Compliance Map form checked on9 November; media optional, up to5 files/25MB each",
-    "compliance_map_final_form": "Inspected and prepared on 9 November: required build, LinkedIn and X URLs; notes up to2000 characters; optional media up to5 files/25MB each. Claimed, not submitted.",
+    "compliance_map_final_form": "Actual form checked 9 November: required build/LinkedIn/X URLs, notes up to2000 characters, optional media up to5 files/25MB each. Owner submitted the prepared entry and MP4; portal confirmed the review queue.",
     "kind": "Edited app walkthrough from actual browser screenshots, not a continuous screen recording",
     "duration_seconds": 96,
     "path": "compliance-map/docs/media/compliance-map-demo.mp4",

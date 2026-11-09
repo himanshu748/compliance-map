@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-09T08:31:05.664888+00:00",
+  "checked_at": "2026-11-09T08:44:28.356581+00:00",
   "id": "submit-one-ready-tinyfish-entry-daily",
   "status": "ACTIVE",
   "cadence": "Daily at10:00 Asia/Kolkata",
@@ -9,5 +9,17 @@
   "final_live_gate_recheck_required": true,
   "submission_stops_before": "2026-11-17T23:59:00-08:00",
   "new_spending_authorized": false,
-  "preserve_existing_submissions": true
+  "preserve_existing_submissions": true,
+  "mode": "prepare_and_handoff",
+  "name": "Prepare one ready TinyFish entry daily",
+  "automatic_final_submission": false,
+  "owner_final_click_required": true,
+  "compliance_map_eligible": false,
+  "last_confirmed_submission": {
+    "bounty": "Compliance Map",
+    "india_calendar_date": "2026-11-09",
+    "actor": "owner",
+    "receipt": "submission-confirmation.json"
+  },
+  "next_slot_scope": "Other independently READY and unsubmitted entries only; skip if none qualify."
 }

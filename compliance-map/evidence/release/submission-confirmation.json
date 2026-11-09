@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-11-09T08:41:29.441Z",
+  "bounty": "Compliance Map",
+  "portal": "https://www.tinybounties.com/crm?view=claims",
+  "actor": "owner",
+  "state": "submitted_in_review_queue",
+  "confirmation": "Close\nBounty submitted\n\nYour build is now in the TinyFish review queue. You can track its status from your profile.\n\nDone",
+  "submission_link": "https://github.com/himanshu748/compliance-map",
+  "india_calendar_date": "2026-11-09",
+  "opaque_entry_id_exposed": false,
+  "duplicate_submission": false,
+  "status": "SUBMITTED_IN_REVIEW_QUEUE",
+  "confirmed": true,
+  "approved": false,
+  "confirmation_title": "Bounty submitted",
+  "confirmation_message": "Your build is now in the TinyFish review queue. You can track its status from your profile.",
+  "payload_receipt": "submission-draft.json",
+  "submitted_links": {
+    "repository": "https://github.com/himanshu748/compliance-map",
+    "linkedin": "https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/",
+    "x": "https://x.com/jhahimanshu653/status/2119702926319091816",
+    "discord": "https://discord.com/channels/1200506685236711554/1569266115933110272"
+  },
+  "media": [
+    {
+      "path": "compliance-map/docs/media/compliance-map-demo.mp4",
+      "bytes": 10809439,
+      "sha256": "28f9d1c60d0dd845b4eb23eaf7b85cdc039c1774e1162a5e70468a9b6eb41fb5"
+    }
+  ],
+  "observed_upload_state_before_confirmation": "Uploading media 1 of 1",
+  "local_date": "2026-11-09",
+  "timezone": "Asia/Kolkata",
+  "eligible_for_dispatch": false,
+  "new_provider_operations": 0
+}

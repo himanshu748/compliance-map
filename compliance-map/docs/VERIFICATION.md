@@ -1,6 +1,6 @@
 # Verification — 8 November 2026
 
-Compliance Map’s standalone technical package is verified and [published on GitHub](https://github.com/himanshu748/compliance-map). The earlier LinkedIn announcement was removed at the owner’s request. Its [replacement](https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/) and an [X post](https://x.com/jhahimanshu653/status/2119702926319091816) were published with the demo video on 9 November 2026. The required Discord showcase share is published with its video attachment. The entry is claimed and its actual form is prepared; final bounty submission remains pending.
+Compliance Map’s standalone technical package is verified and [published on GitHub](https://github.com/himanshu748/compliance-map). The earlier LinkedIn announcement was removed at the owner’s request. Its [replacement](https://www.linkedin.com/feed/update/urn:li:activity:7525468814378000384/) and an [X post](https://x.com/jhahimanshu653/status/2119702926319091816) were published with the demo video on 9 November 2026. The required Discord showcase share is published with its video attachment. The owner submitted the prepared entry and video on 9 November. TinyBounties confirmed that the build is now in its review queue; approval remains pending.
 
 The [release receipt](../evidence/release/validation.json) records the final package checks. An [isolated copy of the staged public files](../evidence/release/clean-package.json), with no existing dependencies or generated output, passed the exact quickstart installation (`npm ci`), 95 tests, typecheck and build. npm reported zero audit findings. All **95 tests** passed; TypeScript, build and formatting passed. The larger bounty workspace also passed **263 tests**, including the extracted shared Research JSON helper’s callers. Tests use isolated synthetic transports and do not start provider jobs.
 
@@ -16,12 +16,12 @@ The final browser export was read back as JSON: NYC’s fee is USD 280 annually 
 
 NYC’s annual fee frequency uses a [separate earlier source review](../evidence/source-review/report.json), with its original checked date and text hash. It is not counted as another TinyFish Fetch observation. Complete setup costs, overall opening durations and unresolved premises conditions remain unknown.
 
-## Remaining external gates
+## Submission status
 
 - GitHub publication is complete. An anonymous public clone of `54ae89fb38ce7b65bdc213332a38a17e6b95b904` passed `npm ci`, all 95 tests and the build. Every executable/source hash matches the verified manifest.
 - The earlier LinkedIn post was removed, with deletion confirmed in the UI. Its replacement video post and the X video post are published. Both published views were checked for readable paragraphs, the correct TinyFish tag, no em dash and playable 96-second video.
 - The required TinyFish Discord [showcase share](https://discord.com/channels/1200506685236711554/1569266115933110272) is published and read back, with App/API tags and the MP4 attachment. Embedded in-app playback remained unverified; the identical video plays on LinkedIn and X.
-- Compliance Map was claimed on 9 November, and its actual submission form is prepared with all required links and the selected MP4. No final submission or approval has occurred. The daily queue allows at most one ready entry per India calendar day.
+- The owner clicked Submit bounty on 9 November. After the media-upload step, the portal displayed “Bounty submitted” and confirmed its review-queue state. [Submission receipt](../evidence/release/submission-confirmation.json). Approval remains pending. The day’s slot is used; this entry is excluded from future dispatch.
 
 The authenticated portal showed current Student membership on 9 November. The brief, global rules and Compliance Map’s actual submission form were rechecked that day. No private portal capture or personal account export is included in this package.
 
@@ -39,4 +39,4 @@ The [video requirement check](VIDEO_REQUIREMENTS.md) distinguishes the required 
 
 The [96-second walkthrough](media/compliance-map-demo.mp4) uses actual in-app browser captures, edited cuts, captions and reconstructed cursor choreography. It shows both recorded activities, source dates, scoped recommendations, unresolved questions, a different prepared brief and a real JSON export. The browser stayed in recorded-only mode; no new provider operation occurred.
 
-The MP4 is H.264/yuv420p, 1920×1080 at 60 fps, 96 seconds and 10.8 MB. It has no audio. Full-file decoding completed without errors; eight decoded thumbnails were inspected for text, cursor placement, captions and legibility. [Receipt](../evidence/release/video-verification.json). Both social video posts are published and read back. Discord sharing and the final portal-field review are complete. The entry is READY for the authorized daily queue; final submission remains pending.
+The MP4 is H.264/yuv420p, 1920×1080 at 60 fps, 96 seconds and 10.8 MB. It has no audio. Full-file decoding completed without errors; eight decoded thumbnails were inspected for text, cursor placement, captions and legibility. [Receipt](../evidence/release/video-verification.json). Both social video posts are published and read back. Discord sharing and the final portal-field review are complete. The owner submitted the entry and video, and the portal confirmed the review queue. The daily helper now requires an owner hand-off for final prize-entry clicks and must never submit Compliance Map again.

@@ -10,7 +10,7 @@ Compliance Map was claimed on 9 November to prepare its submission. Its own fina
 - Reviewer notes: optional, up to 2,000 characters.
 - Media: optional, up to five files of 25 MB each.
 
-The form is prepared with the public repository, both verified social permalinks, 1,528 characters of reviewer notes including the Discord showcase permalink, and the 10.3 MiB MP4 selected. The final Submit bounty control has not been clicked. See [prepared fields](../evidence/release/submission-draft.json) and [readiness review](../evidence/release/pre-submission-check.json).
+The owner submitted the form on 9 November with the public repository, both verified social permalinks, 1,528 characters of reviewer notes including the Discord showcase permalink, and the 10.3 MiB MP4 selected. After media upload, the portal displayed “Bounty submitted” and confirmed that the entry is in its review queue. [Submission receipt](../evidence/release/submission-confirmation.json). See [prepared fields](../evidence/release/submission-draft.json) and [readiness review](../evidence/release/pre-submission-check.json).
 
 ## Published demonstration
 
@@ -24,4 +24,4 @@ The current global rulebook calls X optional; the actual Compliance Map form req
 
 ## Readback boundary
 
-The brief, rulebook, current Student membership, claim state and actual form were checked through the signed-in in-app browser on 9 November. Account-context captures stay outside the public repository. Compliance Map is claimed and ready; no final bounty submission or approval has occurred.
+The brief, rulebook, current Student membership, claim state and actual form were checked through the signed-in in-app browser on 9 November. Account-context captures stay outside the public repository. Compliance Map is submitted and in the review queue; approval remains pending. It must not be submitted again.
